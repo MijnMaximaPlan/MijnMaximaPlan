@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.logica.pa.spade-maven</groupId>
+		<artifactId>spade-base-project</artifactId>
+		<version>4.4.48.1</version>
+		<relativePath></relativePath>
+	</parent>
+
+	<groupId>nl.cgi.mijnmaximaplan</groupId>
+	<artifactId>mijnmaximaplan</artifactId>
+	<!-- @version: See https://nl-sip.define.logica.com/svn/nl-sip/components/dcjava-standards/trunk/Software%20Engineering/Guidelines/DCJ_SE-GL-How_to_Version_Software.html#Maven -->
+	<version>1.0.0-SNAPSHOT</version>
+	<name>nl.cgi.mijnmaximaplan:mijnmaximaplan</name>
+	<description>mijnmaximaplan-description</description>
+
+	<licenses>
+		<license>
+			<name>Same as in parent pom</name>
+			<url>parent-pom.xml/licenses</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<!-- Do not use this plugin when you maintain the Java code directly instead of the original SMART specs. -->
+				<groupId>com.logica.pa.spade-maven</groupId>
+				<artifactId>spade-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

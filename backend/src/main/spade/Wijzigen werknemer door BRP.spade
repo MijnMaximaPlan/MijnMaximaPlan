@@ -1,0 +1,41 @@
+Process 'Wijzigen werknemer door BRP' key 'mijnmaximaplan/werknemer/wijzigen/brp'
+
+description 'Met dit proces kan het BRP (of als gevolg van een BRP trigger) de gegevens van een werknemer gewijzigd worden.'
+
+/* GLOBALE RESULTATEN */
+
+The following applies:
+    For the ingevoerde_bsn              in input from BRP of type integer applies:
+    For the nieuwe_straat_en_huisnr     in input from BRP of type text    applies:
+    For the nieuwe_postcode_en_stad     in input from BRP of type text    applies:
+    For the ingevoerde_datum_overlijden in input from BRP of type date    applies:
+        if   count("de werknemer met ingevoerde BSN") == 1
+        then "de gegevens van de werknemer zijn gewijzigd"
+             and
+             "bij overlijden is de deelname beeindigd"
+             // and 
+             // "vast nog wel veel meer, maar dat komt in de volgende versie" TODO
+        else "melding {'er is niet precies 1 werknemer gevonden met BSN {ingevoerde_bsn}.'}"
+
+/* DETAILS PER RESULTAAT */
+
+"de gegevens van de werknemer zijn gewijzigd" =
+    For the TE_WIJZIGEN_WERKNEMER in "de werknemer met ingevoerde BSN" applies:
+        if nieuwe_straat_en_huisnr     <> empty and nieuwe_straat_en_huisnr <> '' 
+        then TE_WIJZIGEN_WERKNEMER.straat_en_huisnr     = nieuwe_straat_en_huisnr    
+        and
+        if nieuwe_postcode_en_stad     <> empty and nieuwe_postcode_en_stad <> '' 
+        then TE_WIJZIGEN_WERKNEMER.postcode_en_stad     = nieuwe_postcode_en_stad    
+        and
+        if ingevoerde_datum_overlijden <> empty 
+        then TE_WIJZIGEN_WERKNEMER.datum_van_overlijden = ingevoerde_datum_overlijden
+
+"bij overlijden is de deelname beeindigd" =
+    if   ingevoerde_datum_overlijden <> empty
+    then For the TE_WIJZIGEN_DEELNAME in TE_WIJZIGEN_WERKNEMER.DEELNAME applies:
+            TE_WIJZIGEN_DEELNAME.geldig_tot	= ingevoerde_datum_overlijden
+
+/* BENODIGDE INFO */
+
+"de werknemer met ingevoerde BSN" =
+    WERKNEMERS[bsn_nr == ingevoerde_bsn]

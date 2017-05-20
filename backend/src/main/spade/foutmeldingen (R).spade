@@ -1,0 +1,11 @@
+Process 'Reusable definitions'
+
+description 'Deze herbruikbare requirements betreffen alle foutmeldingen'
+
+"foutmelding 1" = 'NIET IN GEBRUIK. GEBRUIK MAAR VOOR IETS ANDERS.'
+"foutmelding 2" = 'Onverwachte fout: niet precies één PRODUCTEN[{WERKGEVER.kvk_nr} in KLANTEN].'
+"foutmelding 3" = 'Onverwachte fout: niet precies één "resultaat staffel \{{s}\} op \{{peildatum}\} voor \{{peilwaarde}\}"'
+"foutmelding 4" = 'Onverwachte fout: niet precies één "de enige arbeidsovereenkomst van deze \{{DEELNAME.nr}\} op \{{peildatum}\}"'
+"foutmelding 5" = 'Onverwachte fout: niet precies één PA_SYS_USER[ username == {getInitiator()} ]'
+"foutmelding 6" = 'Onverwachte fout: niet precies één DEELNAMES[nr == {DEZE_DEELNAME.nr}].PREMIES[ geldig_van <= {peildatum} and geldig_tot > {peildatum} ]'
+"foutmelding 7" = 'Onverwachte fout: niet precies één PA_SYS_USER[ username == {"Value of parameter {'gebruikersnaam functioneel beheerder'}"} ]'

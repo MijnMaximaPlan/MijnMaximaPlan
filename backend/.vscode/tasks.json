@@ -1,0 +1,40 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "mvn",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    // Below are several tasks. You may use any of them. To do so, set "isBuildCommand" to true in order to change the task run with [Ctrl] + [Shift] + [b].
+    // (beware: there can be only one entry with "isBuildCommand" set to true) 
+    "tasks": [
+        {
+            "taskName": "SPADE generate (without test)",
+            "args": ["clean", "install", "-DskipTests"],
+            "echoCommand": true,
+            "isBuildCommand": true,
+            "problemMatcher": {
+                "owner": "spade",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}\\src\\main\\spade"
+                ],
+                "pattern": {
+                    "regexp": "^\\[(ERROR)\\].* at (.*):(\\d+):(\\d+) in .*: (.*) ->",
+                    "file": 2,
+                    "line": 3,
+                    "column": 4,
+                    "severity": 1,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "taskName": "Compile and run tests",
+            "args": ["verify", "-DskipGenerate"],
+            "echoCommand": true,
+            "isTestCommand": true
+        }
+    ]
+}

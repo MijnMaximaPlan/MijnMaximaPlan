@@ -1,0 +1,39 @@
+Process 'Wijzigen arbeidsovereenkomst' key 'mijnmaximaplan/arbeidsovereenkomst/wijzigen'
+
+description 'Met dit proces kan een arbeidsovereenkomst gewijzigd worden. Het resulteert in een nieuwe versie van een arbeidsovereenkomst met daarin bijv. het nieuwe salaris of het nieuwe part-time percentage. Dit proces zal ook de premie opnieuw berekenen.'
+
+/* GLOBALE RESULTATEN */
+
+The following applies:
+    For the ingang_wijziging             in input from WERKGEVER_SYSTEEM of type date          applies:
+    For the betreft_bsn_nr               in input from WERKGEVER_SYSTEEM of type integer       applies:
+    For the nieuwe_fulltime_jaarsalaris  in input from WERKGEVER_SYSTEEM of type decimal(10,2) applies:
+    For the nieuwe_part_time_percentage  in input from WERKGEVER_SYSTEEM of type decimal(5,2)  applies:
+        if   count("de actuele arbeidsovereenkomst van de werkgever en de ingevoerde werknemer") == 1
+        then "de oude arbeidsovereenkomst is beeindigd, er is een nieuwe versie gemaakt en de premie is opnieuw berekend"
+        else "melding {'er is niet precies 1 arbeidsverhouding gevonden voor werknemer met BSN {betreft_bsn_nr} bij werkgever met systeem user {getInitiator()}.'}"
+
+/* DETAILS PER RESULTAAT */
+
+"de oude arbeidsovereenkomst is beeindigd, er is een nieuwe versie gemaakt en de premie is opnieuw berekend" =
+    For the OUDE_ARBEIDS_OVK in "de actuele arbeidsovereenkomst van de werkgever en de ingevoerde werknemer" applies:
+        OUDE_ARBEIDS_OVK.geldig_tot = ingang_wijziging
+        and
+        "er is een nieuwe versie van deze arbeidsovereenkomst gemaakt"
+        and
+        "de premie voor {NIEUWE_ARBEIDS_OVK.WERKNEMER.DEELNAME} is berekend op {ingang_wijziging}"
+
+"er is een nieuwe versie van deze arbeidsovereenkomst gemaakt" =
+    One NIEUWE_ARBEIDS_OVK exists in ARBEIDSOVEREENKOMSTEN with:
+        WERKNEMER            = OUDE_ARBEIDS_OVK.WERKNEMER
+        WERKGEVER            = OUDE_ARBEIDS_OVK.WERKGEVER
+        geldig_van           = ingang_wijziging
+        geldig_tot           = "maximale datum"
+        fulltime_jaarsalaris = if nieuwe_fulltime_jaarsalaris == empty then OUDE_ARBEIDS_OVK.fulltime_jaarsalaris else nieuwe_fulltime_jaarsalaris
+        part_time_percentage = if nieuwe_part_time_percentage == empty then OUDE_ARBEIDS_OVK.part_time_percentage else nieuwe_part_time_percentage
+
+/* BENODIGDE INFO */
+
+"de actuele arbeidsovereenkomst van de werkgever en de ingevoerde werknemer"
+description 'dit is en werknemer met het ingevoerde bsn nr en daarvan de (enige) actieve arbeidsovereenkomst van de werkgever die hoort bij het systeem wat dit proces opgestart. ' =
+    old WERKNEMERS[bsn_nr == betreft_bsn_nr].ARBEIDSOVEREENKOMSTEN[ geldig_van <= ingang_wijziging and geldig_tot > ingang_wijziging and WERKGEVER.GEAUTHORISEERD_SYSTEEM == "starter van dit proces"]

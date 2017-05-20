@@ -1,0 +1,2 @@
+STAFFELS = FINALIZED:bool; DBID:num; NAAM:str; GELDIGVAN:date; GELDIGTOT:date
+TRUE                     ;1       ; 'premie percentage'; '2017-01-01'; '2099-12-31'

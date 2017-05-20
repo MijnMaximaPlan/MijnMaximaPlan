@@ -1,0 +1,67 @@
+2017-05-20 11:34:36,709 [INFO] com.logica.pagen.server.Main - Starting SPADE Language Server on port 9542
+2017-05-20 11:34:36,820 [INFO] com.logica.pagen.server.Main - Listening to localhost/127.0.0.1:9542
+2017-05-20 11:34:37,176 [INFO] com.logica.pagen.server.Main - Connection accepted
+2017-05-20 11:34:37,216 [INFO] com.logica.pagen.server.SpadeLanguageServer - initialize: workspaceRoot=c:\Users\edhendriks\Documents\PA\projects\MijnMaximaPlan
+2017-05-20 11:34:37,375 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/beheer%20staffels.spade, spec=PaSpec[beheer staffels]
+2017-05-20 11:34:37,382 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Beleggen.spade, spec=PaSpec[Beleggen]
+2017-05-20 11:34:37,397 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/documenten%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 11:34:37,403 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/foutmeldingen%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 11:34:37,427 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/generieke%20requirements%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 11:34:37,447 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Innen.spade, spec=PaSpec[Innen]
+2017-05-20 11:34:37,488 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/LDM%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 11:34:37,491 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/messages%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 11:34:37,508 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/niet%20gebruikte%20functionaliteit%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 11:34:37,521 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Nieuwe%20deelnemer.spade, spec=PaSpec[Nieuwe deelnemer]
+2017-05-20 11:34:37,533 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/premieberekening%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 11:34:37,548 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Uitvoeringsovereenkomst.spade, spec=PaSpec[Nieuwe uitvoeringsovereenkomst]
+2017-05-20 11:34:37,563 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Wijzigen%20arbeidsovereenkomst.spade, spec=PaSpec[Wijzigen arbeidsovereenkomst]
+2017-05-20 11:34:37,570 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Wijzigen%20werknemer%20door%20BRP.spade, spec=PaSpec[Wijzigen werknemer door BRP]
+2017-05-20 11:34:37,610 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeConfiguraton: DidChangeConfigurationParamsImpl [
+  settings = {spade={}}
+]
+2017-05-20 11:34:39,954 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Nieuwe%20deelnemer.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 50
+    character = 16
+  ]
+]
+2017-05-20 11:35:19,774 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Uitvoeringsovereenkomst.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 39
+    character = 81
+  ]
+]
+2017-05-20 11:35:33,402 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Uitvoeringsovereenkomst.spade"
+  ]
+]
+2017-05-20 11:35:33,749 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Uitvoeringsovereenkomst.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 11:35:42,275 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Uitvoeringsovereenkomst.spade"
+  ]
+]
+2017-05-20 11:35:42,630 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/src/main/spade/Uitvoeringsovereenkomst.spade"
+      type = Changed
+    ]
+  )
+]

@@ -1,0 +1,51 @@
+Process 'beheer staffels' key 'mijnmaximaplan/beheer/staffels'
+
+description 'dit proces resulteert in een nieuwe of gewijzigde staffel.'
+
+// TODO: beheer wordt in SPADE waarschijnlijk standaard functionaliteit (zie roadmap ticket #2011). Dit t.z.t. omzetten naar deze standaard functionaliteit.
+
+/* GLOBALE RESULTATEN */
+
+The following applies:
+    For the GEKOZEN_STAFFEL in "gekozen staffel" applies:
+    For the ingangsdatum in "gekozen ingangsdatum" applies:
+        "van oude staffelregels is bepaald of ze meegaan in een nieuwe versie"
+        and
+        "er is een nieuwe versie van de staffel gemaakt"
+        and
+        "de oude staffel is beëindigd"
+
+/* DETAILS PER RESULTAAT */
+
+"van oude staffelregels is bepaald of ze meegaan in een nieuwe versie" =
+    For each OUDE_REGEL in GEKOZEN_STAFFEL.REGELS applies:
+        OUDE_REGEL.geselecteerd  = input from FUNCTIONEEL_BEHEERDER labeled 'Mee in nieuwe versie?' based on "info oude staffel" default true
+
+"er is een nieuwe versie van de staffel gemaakt" =
+    One NIEUWE_STAFFEL exists in STAFFELS with:
+        naam       = GEKOZEN_STAFFEL.naam
+        geldig_van = ingangsdatum
+        geldig_tot = "maximale datum"
+    and
+    For each OUDE_GESELECTEERDE_REGEL in "oude geselecteerde regels" applies:
+        One NIEUWE_VERSIE_REGEL exists in STAFFELREGELS with:
+            STAFFEL = NIEUWE_STAFFEL
+            tot     = input from FUNCTIONEEL_BEHEERDER default OUDE_GESELECTEERDE_REGEL.tot
+            waarde  = input from FUNCTIONEEL_BEHEERDER default OUDE_GESELECTEERDE_REGEL.waarde
+    
+"de oude staffel is beëindigd" =
+    GEKOZEN_STAFFEL.geldig_tot = ingangsdatum
+
+/* BENODIGDE INFO */
+
+"gekozen staffel" =
+    input from FUNCTIONEEL_BEHEERDER chosen from STAFFELS[old geldig_tot == "maximale datum"]
+
+"gekozen ingangsdatum" =
+    input from FUNCTIONEEL_BEHEERDER of type date default "huidige datum"
+
+"info oude staffel" =
+    #(GEKOZEN_STAFFEL.naam, OUDE_REGEL.tot, OUDE_REGEL.waarde)
+
+"oude geselecteerde regels" =
+    sorted(GEKOZEN_STAFFEL.REGELS[geselecteerd], 'tot ascending')

@@ -1,0 +1,18 @@
+Process 'Reusable definitions'
+
+description 'Deze herbruikbare requirements worden niet gebruikt, maar zijn wel interessante andere mogelijkheden om bepaalde functionaliteit te bereiken. '
+
+// TODO: staffel is over het algemeen product specifiek.
+"jaarpremie% conform staffel" 
+description 'deze requirement is een voorbeeld van hoe een staffeltabel ook vast in de requirements geplaatst kan worden. In dit geval hoeven enkel de requirements gewijzigd te worden. Echter, over het algemeen wordt een configureerbare staffeltabel gebruikt zodat enkel de inhoud van deze tabel gewijzigd hoeft te worden zonder dat een nieuwe release gemaakt hoeft te worden. Zie entiteit STAFFELS.' =
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {15} tot {20}" then 5.26  else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {20} tot {25}" then 5.84  else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {25} tot {30}" then 6.79  else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {30} tot {35}" then 7.88  else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {35} tot {40}" then 9.13  else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {40} tot {45}" then 10.66 else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {45} tot {50}" then 12.41 else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {50} tot {55}" then 14.45 else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {55} tot {60}" then 17.01 else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {60} tot {65}" then 20.22 else
+    if "{"leeftijd in jaren voor {OVEREENKOMST.DEELNAME}"} in {65} tot {67}" then 23.00 

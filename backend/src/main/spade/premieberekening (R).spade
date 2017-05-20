@@ -1,0 +1,35 @@
+Process 'Reusable definitions'
+
+description 'Deze herbruikbare requirements betreffen de pensioen premieberekening'
+
+/* ============ RESULTATEN =============== */ 
+
+"de premie voor {DEZE_DEELNAME} is berekend op {peildatum}" =
+    "voer een nieuwe versie van de premie op"
+    and
+    "beeindig de oude premie"
+
+"voer een nieuwe versie van de premie op" =
+    One NIEUWE_PREMIE exists in PREMIES with:
+        DEELNAME                    = DEZE_DEELNAME
+        geldig_van                  = peildatum
+        geldig_tot                  = "maximale datum"
+        jaarpremie_percentage       = "resultaat staffel {'premie percentage'} voor {"leeftijd bij deze deelname"} op {peildatum}"
+        grondslag                   = "de enige arbeidsovereenkomst van deze {DEZE_DEELNAME} op {peildatum}".fulltime_jaarsalaris - DEZE_DEELNAME.OVEREENKOMST.PRODUCT.franchise_bedrag // TODO:vraag aan expert: dit kan negatief worden. Moet dit voorkomen worden?
+        jaarpremie_full_time        = NIEUWE_PREMIE.jaarpremie_percentage * NIEUWE_PREMIE.grondslag / 100
+        persoonlijk_percentage      = "de enige arbeidsovereenkomst van deze {DEZE_DEELNAME} op {peildatum}".part_time_percentage
+        jaarpremie_werkelijk        = NIEUWE_PREMIE.persoonlijk_percentage * NIEUWE_PREMIE.jaarpremie_full_time / 100
+        uitkering_netto_per_maand   = NIEUWE_PREMIE.jaarpremie_werkelijk * 2.1 / 12
+
+"beeindig de oude premie" =
+    if "oude premie bij deze deelname" exists
+    then For the OUDE_PREMIE in "oude premie bij deze deelname" applies:
+            OUDE_PREMIE.geldig_tot = peildatum
+
+/* =========== BENONDIGDE INFO ============= */
+
+"oude premie bij deze deelname" =
+    DEZE_DEELNAME.PREMIES[ DEZE_PREMIE: old geldig_tot == "maximale datum" and DEZE_PREMIE <> NIEUWE_PREMIE ]
+
+"leeftijd bij deze deelname" =
+    "leeftijd {DEZE_DEELNAME.DEELNEMER} op {peildatum}"

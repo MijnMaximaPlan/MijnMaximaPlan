@@ -1,0 +1,50 @@
+Process 'Nieuwe uitvoeringsovereenkomst' with subject #('Overeenkomst': OVEREENKOMST) key 'mijnmaximaplan/uitvoeringsovereenkomst/nieuw'
+
+description 'Dit proces verwerkt in zijn geheel de binnenkomst van een nieuwe deelnemer die een nieuwe pensioenovereenkomst aangaat.'
+
+// ========= RESULTATEN ===========
+
+The following applies:
+    "de uitvoeringsovereenkomst is gemaakt"
+    and
+    "het uitvoeringsovereenkomst document is gemaakt"
+    and
+    "het uitvoeringsovereenkomst document is getekend door de klant"
+    and
+    "het ondertekende document is gecontroleerd door de mijnmaximaplan"
+
+// ========= DETAILS VAN DE RESULTATEN ===========
+
+"de uitvoeringsovereenkomst is gemaakt" = 
+    One OVEREENKOMST exists in OVEREENKOMSTEN with:
+        geldig_van  = input from KLANT default "huidige datum"
+        geldig_tot  = "maximale datum"
+        PRODUCT     = input from KLANT
+        WERKGEVER   = "ingevoerde werkgever"
+        DOCUMENT    = OVEREENKOMST_DOCUMENT
+
+"ingevoerde werkgever" =
+    One WERKGEVER exists in WERKGEVERS with:
+        kvk_nr = input from KLANT
+        naam   = input from KLANT
+        plaats = input from KLANT
+
+"het uitvoeringsovereenkomst document is getekend door de klant" =
+    OVEREENKOMST.door_klant_getekende_versie = input from KLANT based on "gemaakte document overeenkomst info"
+    and
+    OVEREENKOMST.is_getekend_door_klant = input from KLANT 
+                                          labeled 'Heeft u de overeenkomst ondertekend en een scan hiervan in het vorige veld gedaan?' 
+                                          based on "gemaakte document overeenkomst info"
+
+"het ondertekende document is gecontroleerd door de mijnmaximaplan" =
+    OVEREENKOMST.is_gecontroleerd_door_mijnmaximaplan = input from MIJNMAXIMAPLAN
+                                                        labeled 'Is de overeenkomst correct ondertekend door de klant?' 
+                                                        based on #('Door klant getekende versie': OVEREENKOMST.door_klant_getekende_versie)
+
+// ========= BENODIGDE INFORMATIE ===========
+
+"gemaakte document overeenkomst info" =
+    #(  'Overeenkomst nummer'       : OVEREENKOMST.nr
+     ,  'Start overeenkomst'        : OVEREENKOMST.geldig_van
+     ,  'Het overeenkomst document' : OVEREENKOMST_DOCUMENT
+     )

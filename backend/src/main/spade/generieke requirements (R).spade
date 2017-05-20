@@ -1,0 +1,104 @@
+Process 'Reusable definitions'
+
+
+/* =========== DATUM TIJD EN PERIODES ============ */ 
+
+
+"leeftijd {P} op {peildatum}" =
+    years(peildatum - P.geboortedatum)
+
+"huidige leeftijd {P}" =
+    years("huidige datum" - P.geboortedatum)
+
+"huidige datum" =
+    datePart("huidig tijdstip")
+
+"huidig tijdstip" 
+description 'het systeemtijdstip. Maar indien de parameter \'gesimuleerde systeemtijdstip\' in de PA_SYS_PARAMETER tabel is opgegeven, dan wordt deze gebruikt (dit t.b.v. testen of andere omstandigheden waarbij het nodig is om de systeemtijd aan te passen. Het formaat van de kolom value in deze tabel moet zijn dd-MM-yyyy HH:mm:ss' =
+    if     PARAMETERS[name == 'gesimuleerde systeemtijdstip'] exists
+    then   timestamp(one(PARAMETERS[name == 'gesimuleerde systeemtijdstip'].value))
+    else   currentTimestamp()
+
+"maximale datum" 
+description 'de maximale datum die de database ondersteund.' =
+    date('31-12-2099')
+
+"de eerste van de vorige maand" =
+    "de eerste van de maand van {"huidig tijdstip"}" - period('1 month')
+
+"de eerste van de maand van {dtm_of_ts}" 
+description 'De datum van de eerste dag van de maand van de opgegeven datum of tijdstip. Bijv. als de opgegeven datum 21 september 2014 is, dan levert dit 1 september 2014 op.' =
+    date('01-{format(dtm_of_ts, 'MM-yyyy')}')
+
+"de eerste van het jaar van {dtm_of_ts}" 
+description 'De datum van de eerste dag van het jaar van de opgegeven datum of tijdstip. Bijv. als de opgegeven datum 21 september 2014 is, dan levert dit 1 januari 2014 op.' =
+    date('01-01-{format(dtm_of_ts, 'yyyy')}')
+
+
+"{d_ts} als wwww mm dddd jjjj" description 'dus bijv. als Vrijdag 25 maart 2016' =
+    format(d_ts, 'EEEE dd MMMM YYYY', 'nl')
+
+"{n} als geldbedrag" =
+    format(n, '###,###,##0.00', 'nl')
+
+/* =========== OMTRENT NUMERIEKE WAARDES ============ */ 
+
+
+"{w} als decimaal" =
+    decimal('{w}')
+
+"{waarde} kleiner dan {bovengrens}" 
+description 'Standaarddefinitie, controleert of een waarde kleiner is dan een gegeven bovengrens.' =
+    waarde < bovengrens
+
+"{waarde} in {ondergrens} tot {bovengrens}" 
+description 'Standaarddefinitie, controleert of een waarde tussen een onder- en bovengrens ligt, waarbij de ondergrens wel meetelt maar de bovengrens niet.' =
+    waarde >= ondergrens and waarde < bovengrens
+
+"{n} plus {p} procent" =
+    n * (100.0 + p) / 100.0
+
+"BTW percentage" =
+    decimal("Value of parameter {'BTW percentage'}")
+
+/* =========== OMTRENT SPADE ENTITEITEN ============ */ 
+
+
+"starter van dit proces" =
+    one(USERS[userName == getInitiator()], "foutmelding 5")
+
+"functioneel beheerder" =
+    one(USERS[userName == "Value of parameter {'gebruikersnaam functioneel beheerder'}"], "foutmelding 7")
+    
+"melding {m}" =
+    One MELDING exists in REPORTS with:
+        title       = 'Er is een fout opgetreden: {m}'
+        rewritable  = true
+        body        = #( 'Situatie' : 'Door een fout is het proces niet succesvol afgerond.'
+                       , 'Reden'    : m
+                       )
+
+"bericht aan {GEBRUIKER} met {berichttekst}" = 
+    One MESSAGE exists in MESSAGES with:
+        user	= GEBRUIKER
+        title   = berichttekst
+        body    = berichttekst
+
+/* =========== OMTRENT mijnmaximaplan ENTITEITEN ============ */ 
+
+
+"product van {WERKGEVER}"
+description 'deze requirement bepaalt het enige product van een werkgever (of een foutmelding).' =
+    one(PRODUCTEN[WERKGEVER in KLANTEN], "foutmelding 2")
+
+"de enige arbeidsovereenkomst van deze {DEELNAME} op {peildatum}" = 
+    one(DEELNAME.DEELNEMER.ARBEIDSOVEREENKOMSTEN[geldig_van <= peildatum and geldig_tot > peildatum], "foutmelding 4")
+
+"vorige verwerkingen van hetzelfde soort" =
+    old ( VERWERKINGEN[ "hetzelfde verwerkingssoort" and "vorige verwerking" ] )
+
+"hetzelfde verwerkingssoort" =
+    soort == DEZE_VERWERKING.soort
+
+"vorige verwerking" =
+    tijdstip < DEZE_VERWERKING.tijdstip

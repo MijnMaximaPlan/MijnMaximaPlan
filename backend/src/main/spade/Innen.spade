@@ -1,0 +1,84 @@
+Process 'Innen' startable by FUNCTIONEEL_BEHEERDER key 'mijnmaximaplan/innen'
+
+description 'Dit proces zal periodiek (bijv. maandelijks) een factuur maken voor nog niet voor deze periode gefactureerde deelnames. 1 factuur per werkgever voor al zijn nog niet (in deze periode) gefactureerde deelnames. '
+
+
+/* ============================== GLOBAL RESULTS ============================== */
+
+
+The following applies:
+    if      "er bestaat een verwerking voor deze periode"
+    then    "bericht aan {"functioneel beheerder"} met {"tekst dat er al een verwerking was voor deze periode"}"
+    else    "een facturatieverwerking is gemaakt"
+            and
+            "voor iedere werkgever met actieve deelnames in deze periode is een factuur gemaakt"
+
+
+/* ============================== DETAILS PER RESULT ============================== */
+
+
+"een facturatieverwerking is gemaakt" =
+    One DEZE_VERWERKING exists in VERWERKINGEN with:
+        tijdstip        = "huidig tijdstip"
+        soort           = "periodieke facturatie"
+        start_periode   = "einde van vorige periodieke facturatie"
+        eind_periode    = "start periode plus 1 maand"
+        peildatum       = DEZE_VERWERKING.start_periode
+        samenvatting    = 'In deze verwerking zijn {count(DEZE_VERWERKING.FACTUREN)} facturen aangemaakt met een totaalbedrag van {sum(DEZE_VERWERKING.FACTUREN.totaal_incl_btw)} euro incl. BTW.'
+
+
+"voor iedere werkgever met actieve deelnames in deze periode is een factuur gemaakt" =
+    For each DEZE_WERKGEVER in numerous "werkgevers met actieve deelnames in deze verwerkingsperiode" applies:
+        "een factuur is gemaakt voor {DEZE_WERKGEVER}"
+
+"een factuur is gemaakt voor {DEZE_WERKGEVER}" =
+    One NIEUWE_FACTUUR exists in FACTUREN with:
+        datum       = DEZE_VERWERKING.datum
+        VERWERKING  = DEZE_VERWERKING
+        WERKGEVER   = DEZE_WERKGEVER
+    and
+    "voor iedere actieve deelname is een factuurregel gemaakt"
+
+"voor iedere actieve deelname is een factuurregel gemaakt" =
+    For each DEZE_DEELNAME in "actieve deelnames in deze verwerkingsperiode voor {DEZE_WERKGEVER}" applies:
+        One NIEUWE_FACTUURREGEL exists in FACTUURREGELS with:
+            FACTUUR             = NIEUWE_FACTUUR
+            DEELNAME            = DEZE_DEELNAME
+            omschrijving        = 'Premiebijdrage {"jjjj-mm"} tbv DEELNAME {DEZE_DEELNAME.nr} aan {DEZE_DEELNAME.OVEREENKOMST.PRODUCT.naam}'
+            eenheid             = 'deelname'
+            bedrag_per_eenheid  = "premie van {DEZE_DEELNAME} op {DEZE_VERWERKING.peildatum}".jaarpremie_werkelijk_per_maand
+            aantal_eenheden     = 1.0
+            totaal_excl_btw     = NIEUWE_FACTUURREGEL.bedrag_per_eenheid * NIEUWE_FACTUURREGEL.aantal_eenheden
+            totaal_incl_btw     = "{NIEUWE_FACTUURREGEL.totaal_excl_btw} plus {"BTW percentage"} procent"
+
+/* ============================== INFORMATION NEEDED ============================== */
+
+"er bestaat een verwerking voor deze periode" =
+    old VERWERKINGEN[soort == "periodieke facturatie" and start_periode == "de eerste van de vorige maand" ] exists
+
+"periodieke facturatie" =
+    'periodieke facturatie'
+
+"einde van vorige periodieke facturatie"
+description 'de grootste eind_periode kleiner dan deze verwerking van een verwerking met hetzelfde soort. En indien deze niet bestaat de eerste van de vorige maand.' =
+    if   "vorige verwerkingen van hetzelfde soort" exists
+    then max("vorige verwerkingen van hetzelfde soort".eind_periode)
+    else "geconfigureerde startdatum"
+
+"start periode plus 1 maand" =
+    DEZE_VERWERKING.start_periode + period('1 month')
+
+"werkgevers met actieve deelnames in deze verwerkingsperiode" =
+    WERKGEVERS[ OVEREENKOMSTEN.DEELNAMES[ "deelname actief op {DEZE_VERWERKING.peildatum}" ] exists ]
+
+"actieve deelnames in deze verwerkingsperiode voor {DEZE_WERKGEVER}" =
+    DEZE_WERKGEVER.OVEREENKOMSTEN.DEELNAMES[ "deelname actief op {DEZE_VERWERKING.peildatum}" ]
+
+"jjjj-mm" =
+    format(DEZE_VERWERKING.peildatum, 'yyyy-MM')
+
+"tekst dat er al een verwerking was voor deze periode" =
+    'Er is al een {"periodieke facturatie"} verwerking gevonden voor de maand die begint met {"de eerste van de vorige maand"}'
+
+"geconfigureerde startdatum" description 'de eerste startperiode is configureerbaar met parameter \'initiele facturatie start periode\' met formaat dd-MM-jjjj.' =
+    date("Value of parameter {'initiele facturatie start periode'}")

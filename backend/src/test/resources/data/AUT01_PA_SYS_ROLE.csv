@@ -1,0 +1,9 @@
+PA_SYS_ROLE = GROUP_NAME:str; GROUP_TYPE:str; GROUP_DESCRIPTION:str
+'klant'; 'process-role'; ''
+'mijnmaximaplan'; 'process-role'; ''
+'hr'; 'process-role'; ''
+'functioneel_beheerder'; 'process-role'; ''
+'deelnemer'; 'process-role'; ''
+'werkgever_systeem'; 'process-role'; ''
+'brp'; 'process-role'; ''
+'beleggingsinstantie'; 'process-role'; ''

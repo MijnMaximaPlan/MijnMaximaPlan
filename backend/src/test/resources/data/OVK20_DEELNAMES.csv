@@ -1,0 +1,3 @@
+DEELNAMES = FINALIZED:bool; DBID:num; NR:num ;GELDIGVAN:date;GELDIGTOT:date;FONDSEN:str;OVEREENKOMST_ID:num
+TRUE                     ;1;1;'2017-01-15';'2099-12-31';'Fonds X';1
+TRUE                     ;2;2;'2017-01-30';'2099-12-31';'Fonds Y';1

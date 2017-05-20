@@ -1,0 +1,7 @@
+PA_SYS_PARAMETER = NAME:str; VALUE:str; FINALIZED:bool
+'mijnmaximaplan documenten folder';'target/documents/';1
+'mijnmaximaplan template folder';'classpath:/templates/';1
+'gebruikersnaam functioneel beheerder';'functioneel_beheerder_user';1
+'BTW percentage';'19.0';1
+'gesimuleerde systeemtijdstip';'02-03-2017 00:00:00';1
+'initiele facturatie start periode';'01-02-2017';1

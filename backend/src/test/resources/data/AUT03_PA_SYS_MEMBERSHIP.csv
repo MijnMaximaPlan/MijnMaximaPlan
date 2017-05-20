@@ -1,0 +1,9 @@
+PA_SYS_MEMBERSHIP = USER_NAME:str; ROLE_NAME:str
+'klant_user';'klant'
+'mijnmaximaplan_user';'mijnmaximaplan'
+'hr_user';'hr'
+'functioneel_beheerder_user';'functioneel_beheerder'
+'deelnemer_user';'deelnemer'
+'werkgever_systeem_user';'werkgever_systeem'
+'brp_user';'brp'
+'beleggingsinstantie_user';'beleggingsinstantie'
