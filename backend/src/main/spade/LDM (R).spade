@@ -126,7 +126,8 @@ THERAPIESTAPPEN
 description 'Stappen die onderdeel uitmaken van een kuur.'
 =
     volgnummer                  : integer required
-    interval                    : text required // bijv. '3 weeks'
+    interval                    : text required // bijv. '3 weeks' (moet in het Engels)
+    duur                        : text // bijv. '1 dag' (mag in het Nederlands)
     THERAPIE                    : THERAPIEEN(1) opposite of STAPPEN
     samenvatting                : text displayed = '{volgnummer} - {VERRICHTING.naam} ({interval})'
     VERRICHTING                 : VERRICHTINGEN(1) required
@@ -139,13 +140,17 @@ description 'Soorten verrichtingen.'
 AFSPRAKEN
 description 'Afspraak voor behandelstap.'
 =
+    vroegste_datum              : date
+    laatste_datum               : date
     datum                       : date
     tijdstip                    : timestamp
     locatie                     : text
-    status                      : text
+    status                      : ['verwacht', 'aangevraagd', 'ingepland', 'goedgekeurd', 'geweest']
 //    MET_BEHANDELSTAPPEN         : BEHANDELSTAPPEN_IN_AFSPRAKEN(*) required opposite of AFSPRAAK
 //    MET_VERRICHTINGEN           : 
     BEHANDELSTAPPEN             : BEHANDELSTAPPEN(*) required opposite of AFSPRAAK
+    PROTOCOLSTAP                : BEHANDELSTAPPEN(1) = if BEHANDELSTAPPEN exists then one(BEHANDELSTAPPEN[VERRICHTING == empty])
+    uitgebreide_samenvatting    : text = 'Het planbureau heeft het verzoek gekregen om kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} in te plannen tussen {vroegste_datum} en {laatste_datum}. Deze kuur duurt {PROTOCOLSTAP.THERAPIESTAP.duur} en vindt plaats op {locatie}.'
 
 SMS_MESSAGES =
     from            : text
