@@ -1250,3 +1250,1592 @@ org.antlr.runtime.MissingTokenException: null
     ]
   )
 ]
+2017-05-20 16:09:01,031 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 14
+    character = 74
+  ]
+]
+2017-05-20 16:09:34,005 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 9
+    character = 30
+  ]
+]
+2017-05-20 16:11:07,880 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 121
+    character = 0
+  ]
+]
+2017-05-20 16:11:10,296 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 121
+    character = 0
+  ]
+]
+2017-05-20 16:11:11,271 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 36
+  ]
+]
+2017-05-20 16:11:12,240 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 128
+    character = 77
+  ]
+]
+2017-05-20 16:11:13,822 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 37
+  ]
+]
+2017-05-20 16:11:15,905 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 126
+    character = 8
+  ]
+]
+2017-05-20 16:11:16,132 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 125
+    character = 8
+  ]
+]
+2017-05-20 16:11:16,865 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 126
+    character = 33
+  ]
+]
+2017-05-20 16:11:22,068 [INFO] com.logica.pagen.server.SpadeTextDocumentService - completion: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 125
+    character = 9
+  ]
+]
+2017-05-20 16:11:30,741 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 6
+  ]
+]
+2017-05-20 16:11:31,155 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 7
+  ]
+]
+2017-05-20 16:11:32,022 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 7
+  ]
+]
+2017-05-20 16:11:39,493 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 7
+  ]
+]
+2017-05-20 16:11:39,788 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 7
+  ]
+]
+2017-05-20 16:11:40,321 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 38
+  ]
+]
+2017-05-20 16:12:07,141 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 14
+  ]
+]
+2017-05-20 16:12:11,029 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 7
+  ]
+]
+2017-05-20 16:12:15,182 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 5
+  ]
+]
+2017-05-20 16:12:15,652 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 4
+  ]
+]
+2017-05-20 16:12:17,503 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 9
+  ]
+]
+2017-05-20 16:12:52,260 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 123
+    character = 0
+  ]
+]
+2017-05-20 16:13:18,706 [INFO] com.logica.pagen.server.SpadeTextDocumentService - completion: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 5
+  ]
+]
+2017-05-20 16:13:24,408 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 21:4 - Unexpected 'eerstvolgende_afspraak' (of type ID): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:13:24,624 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 21:4 - Unexpected 'eerstvolgende_afspraak' (of type ID): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:13:26,428 [INFO] com.logica.pagen.server.SpadeTextDocumentService - completion: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 35
+  ]
+]
+2017-05-20 16:13:27,703 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 26:32 - Unexpected ':' (of type COLON): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:13:27,835 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 26:32 - Unexpected ':' (of type COLON): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:13:41,425 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 26:32 - Unexpected ':' (of type COLON): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:13:54,598 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 26:32 - Unexpected ':' (of type COLON): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:05,831 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 26:32 - Unexpected ':' (of type COLON): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:24,471 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 19
+    character = 41
+  ]
+]
+2017-05-20 16:14:25,020 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 19
+    character = 41
+  ]
+]
+2017-05-20 16:14:25,776 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 72
+  ]
+]
+2017-05-20 16:14:26,708 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 50
+  ]
+]
+2017-05-20 16:14:27,178 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 50
+  ]
+]
+2017-05-20 16:14:39,007 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 41
+  ]
+]
+2017-05-20 16:14:39,761 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 19
+    character = 65
+  ]
+]
+2017-05-20 16:14:45,885 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:46,157 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:46,300 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:46,635 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:46,769 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:46,953 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:47,888 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:52,702 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 51
+  ]
+]
+2017-05-20 16:14:53,181 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 51
+  ]
+]
+2017-05-20 16:14:53,807 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:54,296 [INFO] com.logica.pagen.server.SpadeTextDocumentService - completion: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 49
+  ]
+]
+2017-05-20 16:14:54,693 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:54,910 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:14:55,441 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 20
+    character = 55
+  ]
+]
+2017-05-20 16:15:00,352 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 24:0 - Unexpected 'description' (of type DESCRIPTION): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:00,493 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 24:0 - Unexpected 'description' (of type DESCRIPTION): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:01,446 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:05,207 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:05,446 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:05,827 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:05,976 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:06,106 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:06,327 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:06,478 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:06,711 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:07,363 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:07,650 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:15:07,913 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 23:0 - Unexpected 'NAAMGEGEVENS' (of type ID): expecting RPAREN
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:617) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8225) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParam(PaAntlrParser.java:8471) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.actualParams(PaAntlrParser.java:8327) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.funApply(PaAntlrParser.java:8221) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.primaryExpr(PaAntlrParser.java:5680) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.postfixExpr(PaAntlrParser.java:5013) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.prefixExpr(PaAntlrParser.java:4631) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.containsExpr(PaAntlrParser.java:4484) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.multiExpr(PaAntlrParser.java:4344) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.additiveExpr(PaAntlrParser.java:4227) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.relationalExpr(PaAntlrParser.java:4126) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.compareExpr(PaAntlrParser.java:3965) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.assignExpr(PaAntlrParser.java:3874) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.andExpr(PaAntlrParser.java:3775) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.orExpr(PaAntlrParser.java:3676) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.expr(PaAntlrParser.java:3618) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3167) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
