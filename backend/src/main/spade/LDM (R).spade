@@ -18,6 +18,7 @@ description 'Concept Patient uit ZIBS.'
     OUDERS_VERZORGERS           : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT
     GEBRUIKER                   : USERS(1)
     BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
+    eerstvolgende_afspraak      : text = "{first(sorted(BEHANDELTRAJECT.STAPPEN.AFSPRAKEN[tijdstip > currentTimestamp()], 'tijdstip descending'), 'Onverwachte fout: Geen eerste afspraak gevonden bij Eeerstvolgende afspraak patient.').tijdstip} als wwww mm dddd jjjj"
 
 NAAMGEGEVENS
 description 'Concept Naamgegevens uit ZIBS.'
@@ -123,7 +124,7 @@ AFSPRAKEN
 description 'Afspraak voor behandelstap'
 =
     datum                       : date
-    tijd                        : timestamp
+    tijdstip                    : timestamp
     locatie                     : text
     status                      : text
     BEHANDELSTAP                : BEHANDELSTAPPEN(1) required opposite of AFSPRAKEN

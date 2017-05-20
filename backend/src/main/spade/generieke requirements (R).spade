@@ -38,6 +38,9 @@ description 'De datum van de eerste dag van het jaar van de opgegeven datum of t
 "{d_ts} als wwww mm dddd jjjj" description 'dus bijv. als Vrijdag 25 maart 2016' =
     format(d_ts, 'EEEE dd MMMM YYYY', 'nl')
 
+"{d_ts} als wwww mm dddd jjjj UU:mm" description 'dus bijv. als Vrijdag 25 maart 2016' =
+    format(d_ts, 'EEEE dd MMMM YYYY HH:mm', 'nl')
+
 "{n} als geldbedrag" =
     format(n, '###,###,##0.00', 'nl')
 
