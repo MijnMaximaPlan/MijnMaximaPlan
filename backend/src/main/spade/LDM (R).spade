@@ -148,3 +148,9 @@ description 'Afspraak voor behandelstap.'
 //    MET_VERRICHTINGEN           : 
     BEHANDELSTAPPEN             : BEHANDELSTAPPEN(*) required opposite of AFSPRAAK
 
+SMS_MESSAGES =
+    from            : text
+    to              : text
+    body            : text
+    sendTimestamp   : timestamp // optional  
+    
