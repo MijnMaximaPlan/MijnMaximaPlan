@@ -554,3 +554,592 @@
     ]
   )
 ]
+2017-05-20 14:30:54,295 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 14:41:11,094 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 7
+    character = 6
+  ]
+]
+2017-05-20 14:41:15,513 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 7
+    character = 6
+  ]
+]
+2017-05-20 14:51:21,018 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 14:51:21,018 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:19:4 - Unexpected 'AFSPRAKEN' (of type ID): expecting EOF
+2017-05-20 14:51:21,144 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 14:51:21,145 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:19:4 - Unexpected 'AFSPRAKEN' (of type ID): expecting EOF
+2017-05-20 14:51:23,571 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 14:51:23,572 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@8,108:116='PATIENTEN',<52>,5:0]
+2017-05-20 14:51:23,572 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@8,108:116='PATIENTEN',<52>,5:0]
+2017-05-20 14:51:23,572 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@17,167:192='patientidentificatienummer',<52>,8:4]
+2017-05-20 14:51:23,572 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@140,884:892='AFSPRAKEN',<52>,19:4]
+2017-05-20 14:51:23,572 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@144,914:922='AFSPRAKEN',<52>,19:34]
+2017-05-20 14:51:23,572 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@145,923:923='(',<65>,19:43]
+2017-05-20 14:51:23,573 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:19:44 - no viable alternative at input ')'
+2017-05-20 14:51:31,847 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 14:51:31,847 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:20:4 - Unexpected 'EERSTE_VOLGENDE_AFSPRAAK' (of type ID): expecting EOF
+2017-05-20 14:51:31,970 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 14:51:31,970 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:20:4 - Unexpected 'EERSTE_VOLGENDE_AFSPRAAK' (of type ID): expecting EOF
+2017-05-20 14:51:38,817 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 14:51:38,817 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@8,108:116='PATIENTEN',<52>,5:0]
+2017-05-20 14:51:38,817 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@8,108:116='PATIENTEN',<52>,5:0]
+2017-05-20 14:51:38,817 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@17,167:192='patientidentificatienummer',<52>,8:4]
+2017-05-20 14:51:38,817 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@150,932:955='EERSTE_VOLGENDE_AFSPRAAK',<52>,20:4]
+2017-05-20 14:51:38,817 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@154,962:970='AFSPRAKEN',<52>,20:34]
+2017-05-20 14:51:38,818 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@155,971:971='(',<65>,20:43]
+2017-05-20 14:51:38,818 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:20:44 - no viable alternative at input ')'
+2017-05-20 14:52:38,895 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 14:52:39,258 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:11:28,794 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:11:29,151 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:11:59,208 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:11:59,208 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:19:4 - Unexpected 'GEBRUIKER' (of type ID): expecting EOF
+2017-05-20 15:12:00,830 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:12:00,830 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@8,108:116='PATIENTEN',<52>,5:0]
+2017-05-20 15:12:00,830 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@8,108:116='PATIENTEN',<52>,5:0]
+2017-05-20 15:12:00,830 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@17,167:192='patientidentificatienummer',<52>,8:4]
+2017-05-20 15:12:00,831 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@140,884:892='GEBRUIKER',<52>,19:4]
+2017-05-20 15:12:00,831 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@144,914:918='USERS',<52>,19:34]
+2017-05-20 15:12:00,831 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@145,919:919='(',<65>,19:39]
+2017-05-20 15:12:00,831 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:19:40 - no viable alternative at input ')'
+2017-05-20 15:12:02,489 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:12:02,849 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:12:07,078 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:16:30,703 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:30,704 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:78:51 - Unexpected '/' (of type DIV): expecting EOF
+2017-05-20 15:16:31,337 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:91:0 - mismatched character '<EOF>' expecting '*'
+2017-05-20 15:16:32,268 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:91:0 - mismatched character '<EOF>' expecting '*'
+2017-05-20 15:16:32,752 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:91:0 - mismatched character '<EOF>' expecting '*'
+2017-05-20 15:16:35,466 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:35,466 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:78:66 - Unexpected 'o' (of type ID): expecting EOF
+2017-05-20 15:16:35,670 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:35,670 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:78:66 - Unexpected 'op' (of type ID): expecting EOF
+2017-05-20 15:16:35,813 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:35,813 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:78:66 - Unexpected 'opp' (of type ID): expecting EOF
+2017-05-20 15:16:35,967 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:35,968 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:78:66 - Unexpected 'oppo' (of type ID): expecting EOF
+2017-05-20 15:16:36,160 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:36,160 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:78:66 - Unexpected 'oppos' (of type ID): expecting EOF
+2017-05-20 15:16:36,302 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:36,302 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:78:66 - Unexpected 'opposi' (of type ID): expecting EOF
+2017-05-20 15:16:36,509 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:36,510 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:78:66 - Unexpected 'opposite' (of type ID): expecting EOF
+2017-05-20 15:16:36,692 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:78:75 - mismatched character '\r' expecting 'o'
+2017-05-20 15:16:37,044 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:78:76 - mismatched character '\r' expecting 'f'
+2017-05-20 15:16:37,225 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:16:37,225 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:79:32 - Unexpected ':' (of type COLON): expecting EOF
+2017-05-20 15:17:13,065 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:17:13,427 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:17:48,175 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:17:48,175 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:4 - Unexpected 'CONTACTPERSONEN' (of type ID): expecting EOF
+2017-05-20 15:17:48,335 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:17:48,335 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:4 - Unexpected 'CONTACTPERSONEN' (of type ID): expecting EOF
+2017-05-20 15:17:50,407 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:17:50,407 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:4 - Unexpected 'CONTACTPERSONEN' (of type ID): expecting EOF
+2017-05-20 15:17:50,608 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 41
+    character = 16
+  ]
+]
+2017-05-20 15:17:51,893 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:17:51,893 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@251,1578:1590='ADRESGEGEVENS',<52>,37:0]
+2017-05-20 15:17:51,893 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@251,1578:1590='ADRESGEGEVENS',<52>,37:0]
+2017-05-20 15:17:51,893 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@260,1647:1652='straat',<52>,40:4]
+2017-05-20 15:17:51,894 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@381,2433:2447='CONTACTPERSONEN',<52>,52:4]
+2017-05-20 15:17:51,894 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@385,2463:2477='CONTACTPERSONEN',<52>,52:34]
+2017-05-20 15:17:51,894 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@386,2478:2478='(',<65>,52:49]
+2017-05-20 15:17:51,894 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:50 - no viable alternative at input ')'
+2017-05-20 15:18:53,317 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:53,317 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'OP' (of type ID): expecting EOF
+2017-05-20 15:18:53,580 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:53,580 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'OPP' (of type ID): expecting EOF
+2017-05-20 15:18:54,074 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:54,074 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'OP' (of type ID): expecting EOF
+2017-05-20 15:18:54,219 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:54,221 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'O' (of type ID): expecting EOF
+2017-05-20 15:18:55,808 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:55,808 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'O' (of type ID): expecting EOF
+2017-05-20 15:18:56,051 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:56,051 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'OP' (of type ID): expecting EOF
+2017-05-20 15:18:56,174 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:56,174 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'OPP' (of type ID): expecting EOF
+2017-05-20 15:18:56,660 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:56,661 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'OP' (of type ID): expecting EOF
+2017-05-20 15:18:56,803 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:56,805 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'O' (of type ID): expecting EOF
+2017-05-20 15:18:58,592 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:58,594 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'Oo' (of type ID): expecting EOF
+2017-05-20 15:18:58,987 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:58,987 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'O' (of type ID): expecting EOF
+2017-05-20 15:18:59,586 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:59,587 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'o' (of type ID): expecting EOF
+2017-05-20 15:18:59,854 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:59,854 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'op' (of type ID): expecting EOF
+2017-05-20 15:18:59,978 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:18:59,979 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'opp' (of type ID): expecting EOF
+2017-05-20 15:19:00,207 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:00,207 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'oppo' (of type ID): expecting EOF
+2017-05-20 15:19:00,411 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:00,412 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'opposoi' (of type ID): expecting EOF
+2017-05-20 15:19:00,568 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:00,568 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'opposoite' (of type ID): expecting EOF
+2017-05-20 15:19:00,868 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:00,868 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'opposoit' (of type ID): expecting EOF
+2017-05-20 15:19:00,991 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:00,991 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'opposoi' (of type ID): expecting EOF
+2017-05-20 15:19:01,152 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:01,152 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'opposo' (of type ID): expecting EOF
+2017-05-20 15:19:01,325 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:01,325 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'oppos' (of type ID): expecting EOF
+2017-05-20 15:19:01,747 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:01,747 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:52:53 - Unexpected 'opposite' (of type ID): expecting EOF
+2017-05-20 15:19:01,925 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:52:62 - mismatched character '\r' expecting 'o'
+2017-05-20 15:19:04,872 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:19:04,873 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:32 - Unexpected ':' (of type COLON): expecting EOF
+2017-05-20 15:19:51,987 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 51
+    character = 17
+  ]
+]
+2017-05-20 15:19:52,430 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:19:52,726 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ],
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:19:53,835 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 51
+    character = 17
+  ]
+]
+2017-05-20 15:19:54,055 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:19:54,374 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:23:32,625 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:23:32,947 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:24:23,371 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:24:23,728 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:24:51,523 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:51,523 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:80:53 - Unexpected '/' (of type DIV): expecting EOF
+2017-05-20 15:24:52,203 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:88:4 - mismatched character '<EOF>' expecting '*'
+2017-05-20 15:24:52,477 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:88:4 - mismatched character '<EOF>' expecting '*'
+2017-05-20 15:24:53,805 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:88:4 - mismatched character '<EOF>' expecting '*'
+2017-05-20 15:24:54,104 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:88:4 - mismatched character '<EOF>' expecting '*'
+2017-05-20 15:24:55,467 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:55,467 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:80:68 - Unexpected 'o' (of type ID): expecting EOF
+2017-05-20 15:24:55,672 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:55,672 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:80:68 - Unexpected 'op' (of type ID): expecting EOF
+2017-05-20 15:24:55,815 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:55,815 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:80:68 - Unexpected 'opp' (of type ID): expecting EOF
+2017-05-20 15:24:55,984 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:55,984 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:80:68 - Unexpected 'oppo' (of type ID): expecting EOF
+2017-05-20 15:24:56,270 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:56,270 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:80:68 - Unexpected 'opposi' (of type ID): expecting EOF
+2017-05-20 15:24:56,614 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:56,615 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:80:68 - Unexpected 'opposit' (of type ID): expecting EOF
+2017-05-20 15:24:56,754 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:56,754 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:80:68 - Unexpected 'opposite' (of type ID): expecting EOF
+2017-05-20 15:24:57,012 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:80:77 - mismatched character '\r' expecting 'o'
+2017-05-20 15:24:57,135 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:57,135 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:81:32 - Unexpected ':' (of type COLON): expecting EOF
+2017-05-20 15:24:57,236 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:57,236 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:81:32 - Unexpected ':' (of type COLON): expecting EOF
+2017-05-20 15:24:57,450 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:24:57,450 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:81:32 - Unexpected ':' (of type COLON): expecting EOF
+2017-05-20 15:25:01,332 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 88
+  ]
+]
+2017-05-20 15:25:02,014 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 88
+  ]
+]
+2017-05-20 15:25:04,374 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 88
+  ]
+]
+2017-05-20 15:25:04,790 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:25:05,132 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:25:21,364 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:21,364 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:4 - Unexpected 'CONTACTPERSOON' (of type ID): expecting EOF
+2017-05-20 15:25:21,552 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:21,552 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:4 - Unexpected 'CONTACTPERSOON' (of type ID): expecting EOF
+2017-05-20 15:25:24,183 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:60:46 - no viable alternative at character '\'
+2017-05-20 15:25:24,184 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:24,185 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [2] PARSER: LDM (R).spade:60:47 - Unexpected 'N' (of type ID): expecting EOF
+2017-05-20 15:25:26,682 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:26,682 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@394,2511:2525='CONTACTGEGEVENS',<52>,54:0]
+2017-05-20 15:25:26,682 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@394,2511:2525='CONTACTGEGEVENS',<52>,54:0]
+2017-05-20 15:25:26,682 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@403,2584:2598='TELEFOONNUMMERS',<52>,57:4]
+2017-05-20 15:25:26,683 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@449,2850:2863='CONTACTPERSOON',<52>,60:4]
+2017-05-20 15:25:26,683 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@453,2880:2894='CONTACTPERSONEN',<52>,60:34]
+2017-05-20 15:25:26,683 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@454,2895:2895='(',<65>,60:49]
+2017-05-20 15:25:26,683 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:50 - no viable alternative at input ')'
+2017-05-20 15:25:28,512 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:28,512 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:53 - Unexpected 'O' (of type ID): expecting EOF
+2017-05-20 15:25:28,765 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:28,765 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:53 - Unexpected 'OP' (of type ID): expecting EOF
+2017-05-20 15:25:29,196 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:29,196 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:53 - Unexpected 'O' (of type ID): expecting EOF
+2017-05-20 15:25:29,875 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:29,875 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:53 - Unexpected 'o' (of type ID): expecting EOF
+2017-05-20 15:25:30,197 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:30,197 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:53 - Unexpected 'op' (of type ID): expecting EOF
+2017-05-20 15:25:30,343 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:30,343 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:53 - Unexpected 'opp' (of type ID): expecting EOF
+2017-05-20 15:25:30,496 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:30,496 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:53 - Unexpected 'oppo' (of type ID): expecting EOF
+2017-05-20 15:25:30,711 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:30,711 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:60:53 - Unexpected 'opposi' (of type ID): expecting EOF
+2017-05-20 15:25:30,954 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:60:62 - mismatched character '\r' expecting 'o'
+2017-05-20 15:25:31,253 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
+2017-05-20 15:25:31,253 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:65:32 - Unexpected ':' (of type COLON): expecting EOF
+2017-05-20 15:25:36,885 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 53
+    character = 9
+  ]
+]
+2017-05-20 15:25:39,635 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 59
+    character = 69
+  ]
+]
+2017-05-20 15:25:39,770 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:25:39,997 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 59
+    character = 69
+  ]
+]
+2017-05-20 15:25:40,125 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 15:31:41,481 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 13
+    character = 39
+  ]
+]
+2017-05-20 15:32:40,216 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 23
+    character = 8
+  ]
+]
+2017-05-20 15:32:53,754 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 23
+    character = 8
+  ]
+]
+2017-05-20 15:32:54,217 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 23
+    character = 8
+  ]
+]
+2017-05-20 15:32:58,788 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 23
+    character = 8
+  ]
+]
+2017-05-20 15:32:59,215 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 23
+    character = 8
+  ]
+]
+2017-05-20 15:33:03,103 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 23
+    character = 8
+  ]
+]
+2017-05-20 15:33:03,931 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 23
+    character = 8
+  ]
+]
+2017-05-20 15:33:07,856 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 23
+    character = 8
+  ]
+]
+2017-05-20 15:33:31,793 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 33
+    character = 7
+  ]
+]
+2017-05-20 15:33:33,194 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 33
+    character = 7
+  ]
+]
+2017-05-20 15:42:44,855 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 13
+    character = 11
+  ]
+]
+2017-05-20 15:44:11,503 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 14
+    character = 6
+  ]
+]
+2017-05-20 15:55:51,905 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 27
+    character = 9
+  ]
+]
+2017-05-20 15:59:36,940 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didClose: DidCloseTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "git:/c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cedhendriks%5C%5CDocuments%5C%5CPA%5C%5Cprojects%5C%5CMijnMaximaPlan%5C%5Cbackend%5C%5Csrc%5C%5Cmain%5C%5Cspade%5C%5CLDM%20%28R%29.spade%22%2C%22ref%22%3A%22~%22%7D"
+  ]
+]
+2017-05-20 15:59:38,845 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didClose: DidCloseTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
