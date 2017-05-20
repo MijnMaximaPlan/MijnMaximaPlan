@@ -1,2 +1,2 @@
 EMAILADRESSEN = FINALIZED:bool; DBID:num;EMAILADRES:str;EMAILSOORT:str;CONTACTGEGEVEN_ID:num
-TRUE;1;‘ilja@boersma.com’;'HP’;1
+TRUE;1;'ilja@boersma.com';'HP';1
