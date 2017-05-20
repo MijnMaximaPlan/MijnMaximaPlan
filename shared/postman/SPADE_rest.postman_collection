@@ -1,0 +1,315 @@
+{
+	"id": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+	"name": "SPADE_rest",
+	"description": "",
+	"order": [
+		"bf8f7dc3-4963-d76e-fc39-64b1f83c7a00",
+		"26ca8f16-2e61-ee80-12f3-f00f3f360d2c",
+		"ddec0bc6-f1f5-88bd-b16d-6d73cc6c54a4",
+		"60943426-e28c-3250-27ab-3983b37c2b17",
+		"5d64c4a1-3077-bfa9-61d1-0e76af88cdc5",
+		"2b8efe34-be8c-0b03-b1fe-038621e1b493",
+		"7ae7d428-0256-9d09-0915-9f0f8721351d",
+		"470dd36a-6988-1dcb-06aa-bae1fd5603a0",
+		"823488f0-16bb-f1e4-0eb9-3510172f6123",
+		"9d2e3d94-13cc-a468-b678-189976fe0ec5",
+		"4de2eda6-3555-a932-7b0f-98e74405e5e2",
+		"e6d3832b-3f7f-20d5-aff7-f4e174bafeb0",
+		"86564e08-816a-33fb-962a-0f2a88e27b6f",
+		"36171acd-9817-678e-3a36-ad5d43332a43"
+	],
+	"folders": [],
+	"owner": "219389",
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "26ca8f16-2e61-ee80-12f3-f00f3f360d2c",
+			"name": "tasks",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "GET",
+			"headers": "Authorization: BEARER {{token}}",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:8080/rest/tasks",
+			"responses": []
+		},
+		{
+			"id": "2b8efe34-be8c-0b03-b1fe-038621e1b493",
+			"name": "GetTasksForProcessInstance",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "GET",
+			"headers": "Authorization: BEARER {{token}}",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:8080/rest/processInstances/cd736c9c-2c0d-11e7-9127-ecf4bb583324/tasks",
+			"responses": []
+		},
+		{
+			"id": "36171acd-9817-678e-3a36-ad5d43332a43",
+			"headers": "Authorization: BEARER {{token}}\n",
+			"url": "http://{host}/rest/entities/PRODUCTS/instances?$type=range&$member=price&$valueFrom=0&$valueTo=0.6",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1495272233623,
+			"name": "entity_instances",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"responses": []
+		},
+		{
+			"id": "470dd36a-6988-1dcb-06aa-bae1fd5603a0",
+			"name": "GetProcessInstances",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "GET",
+			"headers": "Authorization: BEARER l3zR1i8qSRjbaPj8gu5OxA",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:8080/rest/processDefinitions",
+			"responses": []
+		},
+		{
+			"id": "4de2eda6-3555-a932-7b0f-98e74405e5e2",
+			"name": "SubmitTask (several)",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "POST",
+			"headers": "Authorization: BEARER {{token}}\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"completed\": true,\n  \"formValues\": {\n  \t\"root-LINEs\": 3,\n\t\"root-LINEs[0]-c-product\": 1,\n\t\"root-LINEs[0]-c-number\": 3,\n\t\"root-LINEs[1]-c-product\": 2,\n\t\"root-LINEs[1]-c-number\": 4,\n\t\"root-LINEs[2]-c-product\": 10,\n\t\"root-LINEs[2]-c-number\": 1\n  }\n}",
+			"url": "http://localhost:8080/rest/tasks/8551dcea-399e-11e7-8971-ecf4bb583324",
+			"responses": []
+		},
+		{
+			"id": "5d64c4a1-3077-bfa9-61d1-0e76af88cdc5",
+			"name": "processDefinitions (start process)",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "POST",
+			"headers": "Authorization: BEARER {{token}}",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:8080/rest/processDefinitions/Order_products:1:d0788314-395d-11e7-ad5e-ecf4bb583324/instances",
+			"responses": []
+		},
+		{
+			"id": "60943426-e28c-3250-27ab-3983b37c2b17",
+			"name": "users",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "GET",
+			"headers": "Authorization: BEARER mTYeGxBzHHyveNCuIBFNfA",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:8080/rest/users",
+			"responses": []
+		},
+		{
+			"id": "7ae7d428-0256-9d09-0915-9f0f8721351d",
+			"name": "GetTask",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "GET",
+			"headers": "Authorization: BEARER {{token}}",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:8080/rest/tasks/8551dcea-399e-11e7-8971-ecf4bb583324",
+			"responses": []
+		},
+		{
+			"id": "823488f0-16bb-f1e4-0eb9-3510172f6123",
+			"name": "claim Task",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "POST",
+			"headers": "Authorization: BEARER {{token}}\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{ \"assignee\": { \"userName\": \"marcusk\" } }",
+			"url": "http://localhost:8080/rest/tasks/8551dcea-399e-11e7-8971-ecf4bb583324",
+			"responses": []
+		},
+		{
+			"id": "86564e08-816a-33fb-962a-0f2a88e27b6f",
+			"headers": "Authorization: BEARER {{token}}\n",
+			"url": "http://{host}/rest/entities/PRODUCTS",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1495272235567,
+			"name": "entity",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"responses": []
+		},
+		{
+			"id": "9d2e3d94-13cc-a468-b678-189976fe0ec5",
+			"name": "SubmitTask",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "POST",
+			"headers": "Authorization: BEARER {{token}}\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"completed\": true,\n  \"formValues\": {\n  \t\"root-title\": \"Test of hij het echt doet\"\n  }\n}",
+			"url": "http://localhost:8080/rest/tasks/af3dd6f6-39a2-11e7-8971-ecf4bb583324",
+			"responses": []
+		},
+		{
+			"id": "bf8f7dc3-4963-d76e-fc39-64b1f83c7a00",
+			"headers": "",
+			"url": "http://{{host}}/rest/token",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userName",
+					"value": "marcusk",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "marcusk",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\nvar response = JSON.parse(responseBody);\n\npostman.setEnvironmentVariable('token', response.access_token);",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1495272499730,
+			"name": "token (login)",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"responses": [
+				{
+					"request": {
+						"id": "33614bee-e1f7-4ea7-84ff-1a53c1356b8d",
+						"description": "",
+						"method": "POST",
+						"headers": "Cache-Control: no-cache\nPostman-Token: d58c4145-2466-99c9-1461-71fd2e512c2a\nContent-Type: application/x-www-form-urlencoded",
+						"dataMode": "urlencoded",
+						"data": [
+							{
+								"key": "userName",
+								"value": "edwinh"
+							},
+							{
+								"key": "password",
+								"value": "edwinh"
+							}
+						],
+						"rawModeData": "",
+						"url": "http://localhost:8080/rest/token"
+					},
+					"id": "b675bf97-54e5-6178-a4ae-675d8b6e706a",
+					"name": "token",
+					"status": "OK",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": ""
+					},
+					"language": "javascript",
+					"previewType": "html",
+					"time": "55",
+					"headers": [
+						{
+							"name": "Accept-Ranges",
+							"key": "Accept-Ranges",
+							"value": "bytes",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Wed, 17 Feb 2016 16:10:54 GMT",
+							"description": ""
+						},
+						{
+							"name": "Expires",
+							"key": "Expires",
+							"value": "Wed, 17 Feb 2016 17:10:54 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Restlet-Framework/2.3.5",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Charset, Accept-Encoding, Accept-Language, Accept",
+							"description": ""
+						}
+					],
+					"cookies": [],
+					"text": "{\r\n  \"access_token\" : \"o6HSpi_P1Nb8cQtzDcFF9g\",\r\n  \"expires_in\" : 3600,\r\n  \"token_type\" : \"Bearer\"\r\n}",
+					"rawDataType": "text",
+					"owner": "219389"
+				}
+			]
+		},
+		{
+			"id": "ddec0bc6-f1f5-88bd-b16d-6d73cc6c54a4",
+			"name": "processDefinitions (list of startable processes)",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"method": "GET",
+			"headers": "Authorization: BEARER {{token}}",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:8080/rest/processDefinitions",
+			"responses": []
+		},
+		{
+			"id": "e6d3832b-3f7f-20d5-aff7-f4e174bafeb0",
+			"headers": "Authorization: BEARER {{token}}\n",
+			"url": "http://{{host}}/rest/entities",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1495272531028,
+			"name": "entities",
+			"description": "",
+			"collectionId": "62a7ea85-a87e-89b3-3eb7-37a9119542fd",
+			"responses": []
+		}
+	]
+}
