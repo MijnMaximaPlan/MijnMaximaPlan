@@ -132,3 +132,9 @@ description 'Afspraak voor behandelstap'
     status                      : text
     BEHANDELSTAP                : BEHANDELSTAPPEN(1) required opposite of AFSPRAKEN
 
+SMS_MESSAGES =
+    from            : text
+    to              : text
+    body            : text
+    sendTimestamp   : timestamp // optional  
+    
