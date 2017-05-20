@@ -28,13 +28,13 @@ The following applies:
 "een notificatie voor de nieuwe behandelstap is aangemaakt voor de patient" =
     One NOTIFICATIE_VOLG_BEHANDELSTAP exists in MESSAGES with:
         title       = 'Volgende afspraak is aangevraagd'
-        body        = NIEUWE_AFSPRAAK.locatie//uitgebreide_samenvatting
-        user        = GEKOZEN_PATIENT
-    // and
-    // One SMS_VOLG_BEHANDELSTAP exists in SMS_MESSAGES with:
-    //     from    = 'Prinses Maxima Centrum'
-    //     to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
-    //     body    = NIEUWE_AFSPRAAK.locatie//uitgebreide_samenvatting
+        body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
+        user        = GEKOZEN_PATIENT.GEBRUIKER
+    and
+    One SMS_VOLG_BEHANDELSTAP exists in SMS_MESSAGES with:
+        from    = 'Prinses Maxima Centrum'
+        to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
+        body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
 
 "patient waarvoor de volgende behandelstap moet starten" =
     one(PATIENTEN[patientidentificatienummer == input from ARTS based on PATIENTEN[BEHANDELTRAJECT.status == 'loopt']])
