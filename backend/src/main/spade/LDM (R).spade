@@ -20,7 +20,7 @@ description 'Concept Patient uit ZIBS.'
     BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
     eerstvolgende_afspraak      : text = "volgende afspraak in {BEHANDELTRAJECT} tekstueel"
     next_appointment            : text = "next appointment {BEHANDELTRAJECT} textually"
-    samenvatting                : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} ({patientidentificatienummer})'
+    samenvatting                : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam} ({patientidentificatienummer})'
 
 NAAMGEGEVENS
 description 'Concept Naamgegevens uit ZIBS.'
