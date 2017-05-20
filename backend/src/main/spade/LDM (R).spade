@@ -15,7 +15,7 @@ description 'Concept Patient uit ZIBS.'
     ADRESGEGEVENS               : ADRESGEGEVENS(*) //optional
     CONTACTGEGEVENS             : CONTACTGEGEVENS(*) //optional
 /* Toevoegen: ouders/verzorgers; contactvoorkeuren */
-    OUDERS_VERZORGERS           : 
+    OUDERS_VERZORGERS           : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT
 
 NAAMGEGEVENS
 description 'Concept Naamgegevens uit ZIBS.'
@@ -66,9 +66,20 @@ description 'Concept Emailadressen uit ZIBS.'
     emailadres                  : text required
     emailsoort                  : ['HP', 'WP'] required
 
+CONTACTPERSONEN
+description 'Concept Contactpersonen uit ZIBS.'
+=
+    NAAMGEGEVENS                : NAAMGEGEVENS(1) required
+    ADRESGEGEVENS               : ADRESGEGEVENS(*) //optional
+    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) //optional
+    PATIENT                     : PATIENTEN(1) required opposite of OUDERS_VERZORGERS
+    rol                         : text(2) // 1 = 1e contactpersoon, 2 = 2e contactpersoon, 11 = voogd; etc.
+    relatie                     : text(10) // FTH = father, MTH = mother
 
-
-
+BEHANDELINGEN
+description 'Verzamelconcept van alle behandelstappen van een patient.'
+=
+    
 
 
 
