@@ -24,6 +24,14 @@
 		</license>
 	</licenses>
 	
+	<dependencies>
+		<dependency>
+			<groupId>com.logica.pa.spade-plugins</groupId>
+			<artifactId>spade-sms-plugin</artifactId>
+			<version>${spade.version}</version>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>

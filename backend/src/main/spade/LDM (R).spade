@@ -18,7 +18,9 @@ description 'Concept Patient uit ZIBS.'
     OUDERS_VERZORGERS           : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT
     GEBRUIKER                   : USERS(1)
     BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
-    eerstvolgende_afspraak      : text = "{first(sorted(BEHANDELTRAJECT.STAPPEN.AFSPRAAK[tijdstip > currentTimestamp()], 'tijdstip descending'), 'Onverwachte fout: Geen eerste afspraak gevonden bij Eeerstvolgende afspraak patient.').tijdstip} als wwww mm dddd jjjj"
+    eerstvolgende_afspraak      : text = "volgende afspraak in {BEHANDELTRAJECT} tekstueel"
+    next_appointment            : text = "next appointment {BEHANDELTRAJECT} textually"
+    samenvatting                : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} ({patientidentificatienummer})'
 
 NAAMGEGEVENS
 description 'Concept Naamgegevens uit ZIBS.'
@@ -83,7 +85,7 @@ description 'Concept Contactpersonen uit ZIBS; wordt gebruikt om m.n. ouders te 
     CONTACTGEGEVENS             : CONTACTGEGEVENS(*) /* optional */ opposite of CONTACTPERSOON
     PATIENT                     : PATIENTEN(1) required opposite of OUDERS_VERZORGERS
     rol                         : text(2) // 1 = 1e contactpersoon, 2 = 2e contactpersoon, 11 = voogd; etc.
-    relatie                     : text(10) // FTH = father, MTH = mother
+    relatie                     : ['FTH', 'MTH', 'Etc'] // FTH = father, MTH = mother
     GEBRUIKER                   : USERS(1) //optional
 
 BEHANDELTRAJECTEN
@@ -117,7 +119,7 @@ description 'Komt overeen met een enkel contactmoment; vallen onder een BEHANDEL
 THERAPIEEN
 description 'Definitie van een kuur, bijv. een bepaalde soort chemotherapie. Feitelijk een tijdelijke vervanging van PRACTOCOL oid.'
 =
-    soort                       : text
+    soort                       : text displayed
     STAPPEN                     : THERAPIESTAPPEN(*) /* optional */ opposite of THERAPIE
 
 THERAPIESTAPPEN
@@ -126,6 +128,7 @@ description 'Stappen die onderdeel uitmaken van een kuur.'
     volgnummer                  : integer required
     interval                    : text required // bijv. '3 weeks'
     THERAPIE                    : THERAPIEEN(1) opposite of STAPPEN
+    samenvatting                : text displayed = '{volgnummer} - {verrichting} ({interval})'
     VERRICHTING                 : VERRICHTINGEN(1) required
 
 VERRICHTINGEN

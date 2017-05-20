@@ -1,2 +1,0 @@
-NAAMGEGEVENS = FINALIZED:bool, DBID:num,voorvoegsels:str,achternaam:str
-TRUE,1,,'Dijkstra’

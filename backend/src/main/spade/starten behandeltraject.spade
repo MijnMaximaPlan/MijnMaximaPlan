@@ -1,0 +1,19 @@
+Process 'starten behandeltraject' key 'mijnmaximaplan/behandeltraject/starten' // with subject #('subject_title': subject_element) startable by batch_starter_actor
+
+description 'Een art start een behandeltraject door een protocol te kiezen (therapie met bijbehorende therapiestappen). Als gevolg hiervan zal direct een 1ste behandelstap gecreëerd worden incl. een verwachte afspraak hiervoor. '
+
+/* GLOBAL RESULTS */
+
+The following applies:
+    "er is een behandeltraject gemaakt voor een door de arts gekozen protocol"
+    
+
+/* DETAILS PER RESULT */
+
+"er is een behandeltraject gemaakt voor een door de arts gekozen protocol" =
+    One BEHANDELTRAJECT exists in BEHANDELTRAJECTEN with:
+        PATIENT	= input from ARTS
+        THERAPIE = input from ARTS
+        
+
+/* INFORMATION NEEDED */
