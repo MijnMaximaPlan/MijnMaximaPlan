@@ -95,6 +95,7 @@ description 'Verzamelconcept van alle behandelstappen van een patient in de cont
     STAPPEN                     : BEHANDELSTAPPEN(*) /* optional */ opposite of BEHANDELTRAJECT
     THERAPIE                    : THERAPIEEN(1) /* optional */
     startdatum                  : date required
+    status                      : ['loopt', 'beeindigd']
 
 BEHANDELSTAPPEN
 description 'Komt overeen met een enkel contactmoment; vallen onder een BEHANDELING; hier worden alleen opgenomen de stappen die al zijn uitgevoerd, of zijn ingepland/voorgesorteerd.'
