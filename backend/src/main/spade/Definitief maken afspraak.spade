@@ -1,0 +1,25 @@
+Process 'Definitief maken afspraak'
+
+The following applies:
+    "de geplande afspraak is definitief gemaakt"
+    and
+    "een notificatie is aangemaakt voor de patient"
+
+"de geplande afspraak is definitief gemaakt" =
+    For the GEKOZEN_AFSPRAAK in "afspraak die definitief gemaakt moet worden" applies:
+        GEKOZEN_AFSPRAAK.status = 'Definitief'
+
+"een notificatie is aangemaakt voor de patient" =
+    One NOTIFICATIE_AFSPRAAK_DEFINITIEF exists in MESSAGES with:
+//        PATIENT     = "de patient van de gekozen afspraak"
+//        AFSPRAAK    = GEKOZEN_AFSPRAAK
+        title       = 'Afspraak'
+        body        = 'Uw afspraak van ... is nu definitief.'
+        user        = "de patient van de gekozen afspraak".GEBRUIKER
+
+"afspraak die definitief gemaakt moet worden" =
+    AFSPRAKEN[datum == input from ARTS]
+
+"de patient van de gekozen afspraak" =
+    first(GEKOZEN_AFSPRAAK.BEHANDELSTAPPEN.BEHANDELTRAJECT.PATIENT, 'Onverwachte fout')
+
