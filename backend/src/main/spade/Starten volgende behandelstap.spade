@@ -7,19 +7,22 @@ The following applies:
             "de volgende behandelstap is aangemaakt"
             and
             "een notificatie voor de nieuwe behandelstap is aangemaakt voor de patient"
+        // and
+        // "het planbureau heeft de afspraak ingepland"
+        // and
+        // "een notificatie voor de geplande afspraak is aangemaakt voor de patient"
 
 "de therapie van de patient is nog niet voltooid" =
-    max(GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) < max(GEKOZEN_PATIENT.BEHANDELTRAJECT.THERAPIE.STAPPEN.volgnummer)
+    max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) < max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.THERAPIE.STAPPEN.volgnummer)
 
 "de volgende behandelstap is aangemaakt" =
-    For the GEKOZEN_PATIENT in "patient waarvoor de volgende behandelstap moet starten" applies:
-        One NIEUWE_BEHANDELSTAP exists in BEHANDELSTAPPEN with:
-            volgnummer          = max(GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) + 1
-            status              = 'loopt'
-            VORIGE              = one(GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN[volgnummer == max(GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer)])
-            BEHANDELTRAJECT     = GEKOZEN_PATIENT.BEHANDELTRAJECT
-            THERAPIESTAP        = one(GEKOZEN_PATIENT.BEHANDELTRAJECT.THERAPIE.STAPPEN[volgnummer == NIEUWE_BEHANDELSTAP.volgnummer])
-            AFSPRAAK            = "nieuwe afspraak voor volgende behandelstap"
+    One NIEUWE_BEHANDELSTAP exists in BEHANDELSTAPPEN with:
+        volgnummer          = max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) + 1
+        status              = 'loopt'
+        VORIGE              = one(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN[volgnummer == max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer)])
+        BEHANDELTRAJECT     = old GEKOZEN_PATIENT.BEHANDELTRAJECT
+        THERAPIESTAP        = one(GEKOZEN_PATIENT.BEHANDELTRAJECT.THERAPIE.STAPPEN[volgnummer == NIEUWE_BEHANDELSTAP.volgnummer])
+        AFSPRAAK            = "nieuwe afspraak voor volgende behandelstap"
 
 "nieuwe afspraak voor volgende behandelstap" =
     One NIEUWE_AFSPRAAK exists in AFSPRAKEN with:
@@ -37,5 +40,6 @@ The following applies:
         body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
 
 "patient waarvoor de volgende behandelstap moet starten" =
-    one(PATIENTEN[patientidentificatienummer == input from ARTS based on PATIENTEN[BEHANDELTRAJECT.status == 'loopt']])
+    input from ARTS chosen from PATIENTEN[old BEHANDELTRAJECT.status == 'loopt']
+    // one(PATIENTEN[patientidentificatienummer == input from ARTS based on PATIENTEN[old BEHANDELTRAJECT.status == 'loopt']])
 
