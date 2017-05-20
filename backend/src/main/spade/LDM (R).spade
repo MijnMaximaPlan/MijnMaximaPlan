@@ -99,14 +99,22 @@ description 'Verzamelconcept van alle behandelstappen van een patient in de cont
 BEHANDELSTAPPEN
 description 'Komt overeen met een enkel contactmoment; vallen onder een BEHANDELING; hier worden alleen opgenomen de stappen die al zijn uitgevoerd, of zijn ingepland/voorgesorteerd.'
 =
-    verrichting                 : text required
+//    verrichting                 : text required
     volgnummer                  : integer required
     status                      : text
     VORIGE                      : BEHANDELSTAPPEN(1) opposite of VOLGENDE
     VOLGENDE                    : BEHANDELSTAPPEN(1) opposite of VORIGE
     BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) required opposite of STAPPEN
     THERAPIESTAP                : THERAPIESTAPPEN(1)
-    AFSPRAKEN                   : AFSPRAKEN(*) /* optional */ opposite of BEHANDELSTAP
+    VERRICHTING                 : VERRICHTINGEN(1) //optional
+//    IN_AFSPRAKEN                : BEHANDELSTAPPEN_IN_AFSPRAKEN(*) opposite of BEHANDELSTAP
+    AFSPRAAK                    : AFSPRAKEN(1) /* optional */ opposite of BEHANDELSTAPPEN
+
+// BEHANDELSTAPPEN_IN_AFSPRAKEN
+// description 'Koppeltabel tussen BEHANDELSTAPPEN en AFSPRAKEN.'
+// =
+//     BEHANDELSTAP                : BEHANDELSTAPPEN(1) opposite of IN_AFSPRAKEN
+//     AFSPRAAK                    : AFSPRAKEN(1) opposite of MET_BEHANDELSTAPPEN
 
 THERAPIEEN
 description 'Definitie van een kuur, bijv. een bepaalde soort chemotherapie. Feitelijk een tijdelijke vervanging van PRACTOCOL oid.'
@@ -117,20 +125,27 @@ description 'Definitie van een kuur, bijv. een bepaalde soort chemotherapie. Fei
 THERAPIESTAPPEN
 description 'Stappen die onderdeel uitmaken van een kuur.'
 =
-    verrichting                 : text required
     volgnummer                  : integer required
     interval                    : text required // bijv. '3 weeks'
     THERAPIE                    : THERAPIEEN(1) opposite of STAPPEN
-    samenvatting                : text displayed = '{volgnummer} - {verrichting} ({interval})'
+    samenvatting                : text displayed = '{volgnummer} - {VERRICHTING.naam} ({interval})'
+    VERRICHTING                 : VERRICHTINGEN(1) required
+
+VERRICHTINGEN
+description 'Soorten verrichtingen.'
+=
+    naam                        : text
 
 AFSPRAKEN
-description 'Afspraak voor behandelstap'
+description 'Afspraak voor behandelstap.'
 =
     datum                       : date
     tijdstip                    : timestamp
     locatie                     : text
     status                      : text
-    BEHANDELSTAP                : BEHANDELSTAPPEN(1) required opposite of AFSPRAKEN
+//    MET_BEHANDELSTAPPEN         : BEHANDELSTAPPEN_IN_AFSPRAKEN(*) required opposite of AFSPRAAK
+//    MET_VERRICHTINGEN           : 
+    BEHANDELSTAPPEN             : BEHANDELSTAPPEN(*) required opposite of AFSPRAAK
 
 SMS_MESSAGES =
     from            : text
