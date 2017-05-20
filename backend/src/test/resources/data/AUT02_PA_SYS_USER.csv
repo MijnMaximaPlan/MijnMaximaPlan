@@ -1,10 +1,7 @@
 PA_SYS_USER = USER_NAME:str; FIRST_NAME:str; LAST_NAME:str; EMAIL:str; PASSWORD:str; LOCKED:bool
-'klant_user'; 'Geregistreerde';'Werkgever'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
-'mijnmaximaplan_user'; 'Premie';'Pensioen Instelling'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
-'hr_user'; 'HaEr';'Medewerker'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
-'functioneel_beheerder_user'; 'Functioneel';'Beheerder'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
-'deelnemer_user'; 'Deel';'Nemer'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
-'deelnemer_user2'; 'Deel';'Nemer2'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
-'werkgever_systeem_user';'Wkg';'Systeem'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
-'brp_user';'Basisregistratie';'Personen'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
-'beleggingsinstantie_user';'Beleggings';'Instantie'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
+'jannie'; 'Jannie';'Dijkstra'; 'J.E.DijkstraPintoLeite-8@prinsesmaximacentrum.nl'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
+'ilja'; 'Ilja';'Dijkstra'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
+'piet'; 'Piet';'Planner'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
+'anton'; 'anton';'arts'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
+'lillian'; 'Lillian';'Laborantius'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
+'sigmund'; 'Sigmund';'Freud'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false

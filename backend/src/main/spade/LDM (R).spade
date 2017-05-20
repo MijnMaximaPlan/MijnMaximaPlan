@@ -1,153 +1,89 @@
 Process 'Reusable definitions'
 
-/* THE LOGICAL DATA MODEL (textual version) */
+description 'Domeinmodel voor Project Roadmap Prinses Maxima Centrum.'
 
-OVEREENKOMSTEN =
-    nr                         : integer autonum group 'Overeenkomst'
-    geldig_van                 : date required group 'Overeenkomst'
-    geldig_tot                 : date required group 'Overeenkomst'
-    PRODUCT                    : PRODUCTEN(1)  required opposite of OVEREENKOMSTEN group 'Overeenkomst'
-    WERKGEVER                  : WERKGEVERS(1) required opposite of OVEREENKOMSTEN group 'Overeenkomst'
-    DOCUMENT                   : DOCUMENTS(1) group 'Overeenkomst'
-    door_klant_getekende_versie: binary group 'Overeenkomst'
-    is_getekend_door_klant     : boolean action group 'Overeenkomst' 
-    is_gecontroleerd_door_mijnmaximaplan  : boolean action group 'Overeenkomst'
-    DEELNAMES                  : DEELNAMES(*) required opposite of OVEREENKOMST group 'overeenkomst'
-    samenvatting               : text displayed = 'Nr: {nr} geldig_van: {geldig_van} voor: {WERKGEVER.samenvatting}'  group 'Overeenkomst'
+PATIENTEN
+description 'Concept Patient uit ZIBS.'
+=
+    patientidentificatienummer  : text //optional
+    geboortedatum               : timestamp required
+    geslacht                    : ['UN', 'M', 'F', 'UNK'] required
+    meerling_indicator          : boolean //optional
+    overlijdens_indicator       : boolean //optional
+    datum_overlijden            : timestamp //optional
+    NAAMGEGEVENS                : NAAMGEGEVENS(1) required
+    ADRESGEGEVENS               : ADRESGEGEVENS(*) /* optional */ opposite of PATIENT
+    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) /* optional */ opposite of PATIENT
+/* Toevoegen: ouders/verzorgers; contactvoorkeuren */
+    OUDERS_VERZORGERS           : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT
 
-"overeenkomst actief op {peildatum}" =
-    geldig_van <= peildatum and geldig_tot > peildatum
+NAAMGEGEVENS
+description 'Concept Naamgegevens uit ZIBS.'
+=
+    voornamen                   : text //optional
+    initialen                   : text //optional
+    roepnaam                    : text //optional
+    naamgebruik                 : ['NL1', 'NL2', 'NL3', 'NL4', 'UNK'] //optional // NL1 = Egen geslachtsnaam, etc.
+    GESLACHTSNAAM               : GESLACHTSNAMEN(1) //optional
+    GESLACHTSNAAMPARTNER        : GESLACHTSNAMEN(1) //optional
 
-PRODUCTEN =
-    naam            : text displayed unique
-    franchise_bedrag: decimal(10,2)
-    OVEREENKOMSTEN  : OVEREENKOMSTEN(*) opposite of PRODUCT
-    
-DEELNAMES =
-    nr                      : integer autonum group 'Deelname'
-    OVEREENKOMST            : OVEREENKOMSTEN(1) required opposite of DEELNAMES group 'Deelname'
-    geldig_van              : date required group 'Deelname'
-    geldig_tot              : date required group 'Deelname'
-    FONDSEN                 : text group 'Deelname' // nu tijdelijk 1 fonds, dit wordt 1 of meerdere fondsen
-    DEELNEMER               : WERKNEMERS(1) required opposite of DEELNAME group 'Deelname'
-    PREMIES                 : PREMIES(*) opposite of DEELNAME group 'Deelname'
-    BELEGGINGSORDERS        : BELEGGINGSORDERS(*) opposite of DEELNAME group 'Deelname'
-    FACTUURREGELS           : FACTUURREGELS(*) opposite of DEELNAME group 'Deelname'
-    naam                    : text displayed = 'deelname {nr} vanaf {geldig_van} voor {DEELNEMER.naam}' group 'Deelname'
+GESLACHTSNAMEN
+description 'Concept GeslachtsNaam, GeslachtsnaamPartner uit ZIBS.'
+=
+    voorvoegsels                : text //optional
+    achternaam                  : text required
 
-"deelname actief op {peildatum}" =
-    geldig_van <= peildatum and geldig_tot > peildatum
+ADRESGEGEVENS
+description 'Concept Adresgegevens uit ZIBS.'
+=
+    straat                      : text //optional
+    huisnummer                  : text //optional
+    huisnummerletter            : text //optional
+    huisnummertoevoeging        : text //optional
+    aanduiding_bij_nummer       : ['to', 'by'] //optional // staatvoor tegenover en bij
+    postcode                    : text //optional
+    woonplaats                  : text //optional
+    gemeente                    : text //optional
+    land                        : text //optional // Land GBA of ISO codelijst
+    additionele_informatie      : text //optional
+    adres_soort                 : ['PST', 'HP', 'PHYS', 'TMP', 'WP', 'HV'] //optional // bijv. PST postal address, HP primary home, etc.
+    PATIENT                     : PATIENTEN opposite of ADRESGEGEVENS
 
-PREMIES =
-    geldig_van                      : date required                                 group 'Premie'
-    geldig_tot                      : date required                                 group 'Premie'
-    jaarpremie_percentage           : decimal(5,2)                                  group 'Premie'
-    grondslag                       : decimal(10,2)                                 group 'Premie'
-    jaarpremie_full_time            : decimal(10,2)                                 group 'Premie'
-    persoonlijk_percentage          : decimal(5,2)                                  group 'Premie'
-    jaarpremie_werkelijk            : decimal(10,2)                                 group 'Premie'
-    uitkering_netto_per_maand       : decimal(10,2)                                 group 'Premie'
-    DEELNAME                        : DEELNAMES(1)                                  group 'Premie'
-    jaarpremie_werkelijk_per_maand  : decimal(10,2) = jaarpremie_werkelijk / 12     group 'Premie'
+CONTACTGEGEVENS
+description 'Concept Contactgegevens uit ZIBS.'
+=
+    TELEFOONNUMMERS             : TELEFOONNUMMERS(*) /* optional */ opposite of CONTACTGEGEVEN
+    EMAILADRESSEN               : EMAILADRESSEN(*) /* optional */ opposite of CONTACTGEGEVEN
+    PATIENT                     : PATIENTEN(1) opposite of CONTACTGEGEVENS
 
-"premie actief op {peildatum}" =
-    geldig_van <= peildatum and geldig_tot > peildatum
+TELEFOONNUMMERS
+description 'Concept Telefoonnummers uit ZIBS.'
+=
+    telefoonnummer              : text required
+    nummer_soort                : ['HP', 'TMP', 'WP', 'MC', 'PG'] required // bijv. HP primary home, WP Work Place, MC mobile contact, etc.
+    CONTACTGEGEVEN              : CONTACTGEGEVENS(1) opposite of TELEFOONNUMMERS
 
-"premie van {DEZE_DEELNAME} op {peildatum}" =
-    one( DEZE_DEELNAME.PREMIES[ geldig_van <= peildatum and geldig_tot > peildatum ],  "foutmelding 6")
+EMAILADRESSEN
+description 'Concept Emailadressen uit ZIBS.'
+=
+    emailadres                  : text required
+    emailsoort                  : ['HP', 'WP'] required
+    CONTACTGEGEVEN              : CONTACTGEGEVENS(1) opposite of EMAILADRESSEN
 
-BELEGGINGSORDERS =
-    tijdstip            : timestamp required group 'Beleggingsorder'
-    bedrag	            : decimal(10,2) group 'Beleggingsorder'
-    transactiekoers     : decimal(10,2) group 'Beleggingsorder'
-    aantal_participaties: decimal(12,5) group 'Beleggingsorder'
-    DEELNAME            : DEELNAMES(1) required opposite of BELEGGINGSORDERS group 'Beleggingsorder'
-    datum               : timestamp required group 'Beleggingsorder' = datePart(tijdstip)
+CONTACTPERSONEN
+description 'Concept Contactpersonen uit ZIBS.'
+=
+    NAAMGEGEVENS                : NAAMGEGEVENS(1) required
+    ADRESGEGEVENS               : ADRESGEGEVENS(*) //optional
+    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) //optional
+    PATIENT                     : PATIENTEN(1) required opposite of OUDERS_VERZORGERS
+    rol                         : text(2) // 1 = 1e contactpersoon, 2 = 2e contactpersoon, 11 = voogd; etc.
+    relatie                     : text(10) // FTH = father, MTH = mother
 
-WERKGEVERS =
-    kvk_nr      : integer required unique  group 'Werkgever'
-    naam        : text required unique group 'Werkgever'
-    plaats      : text required group 'Werkgever'
-    OVEREENKOMSTEN: OVEREENKOMSTEN(*) opposite of WERKGEVER group 'Werkgever'
-    ARBEIDSOVEREENKOMSTEN: ARBEIDSOVEREENKOMSTEN(*) opposite of WERKGEVER group 'Werkgever'
-    GEAUTHORISEERD_SYSTEEM: USERS(1) unique description 'Externe systemen krijgen een systeem user toebedeeld die namens deze werkgever wijzigingen door mogen geven. Dit attribuut betreft deze user' group 'Werkgever'
-    FACTUREN    : FACTUREN(*) opposite of WERKGEVER
-    samenvatting: text displayed = '{naam} (te {plaats} kvk: {kvk_nr})' group 'Werkgever'
-
-WERKNEMERS =
-    DEELNAME                : DEELNAMES(1) required opposite of DEELNEMER group 'Werknemer'
-    geboortedatum           : date required group 'Werknemer'
-    geslacht                : ['man', 'vrouw'] required group 'Werknemer'
-    voornaam                : text(50) required group 'Werknemer'
-    tussenvoegsel           : text(10) group 'Werknemer'
-    achternaam              : text(50) required group 'Werknemer'
-    postcode_en_stad        : text(100) required group 'Werknemer'
-    straat_en_huisnr        : text(100) required group 'Werknemer'
-    bsn_nr                  : integer required unique group 'Werknemer'
-    email                   : text(100) required group 'Werknemer'
-    datum_van_overlijden    : date group 'Werknemer'
-    ARBEIDSOVEREENKOMSTEN   : ARBEIDSOVEREENKOMSTEN(*) required opposite of WERKNEMER group 'Werknemer'
-    OVEREENKOMENDE_GEBRUIKER: USERS(1) group 'Werknemer'
-    aanhef                  : text = if geslacht == 'man' then 'heer' else 'mevrouw'
-    naam                    : text description 'volledige naam, maar dan zonder eventuele spaties' = replace('{voornaam} {tussenvoegsel} {achternaam}', '  ', ' ')  group 'Werknemer'
-    samenvatting            : text displayed = '{naam} (BSN: {bsn_nr})'  group 'Werknemer'
-
-
-ARBEIDSOVEREENKOMSTEN description 'per werknemer en werkgever altijd maar 1 arbeidsovereenkomst op 1 moment in de tijd geldig' =
-    WERKNEMER           : WERKNEMERS(1) required opposite of ARBEIDSOVEREENKOMSTEN group 'Arbeidsovereenkomst'
-    WERKGEVER           : WERKGEVERS(1) required opposite of ARBEIDSOVEREENKOMSTEN group 'Arbeidsovereenkomst'
-    geldig_van          : date required group 'Arbeidsovereenkomst'
-    geldig_tot          : date required group 'Arbeidsovereenkomst'
-    fulltime_jaarsalaris: decimal(10,2) group 'Arbeidsovereenkomst'
-    part_time_percentage: decimal(5,2) group 'Arbeidsovereenkomst'
-
-
-STAFFELS = 
-    naam        : text required displayed
-    geldig_van  : date required           
-    geldig_tot  : date required
-    REGELS      : STAFFELREGELS(*) opposite of STAFFEL
-
-STAFFELREGELS =
-    tot         : decimal(12,2) required
-    waarde      : decimal(12,2) required
-    geselecteerd: boolean
-    STAFFEL     : STAFFELS(1) required opposite of REGELS
-
-"resultaat staffel {s} voor {peilwaarde} op {peildatum}"
-description 'Deze requirement levert de enige waarde van staffel s op voor de meegegeven peildatum en peilwaarde.' =
-    first(sorted(STAFFELS[naam == s and geldig_van <= peildatum and geldig_tot > peildatum].REGELS[tot > "{peilwaarde} als decimaal"], 'tot ascending'), 
-    "foutmelding 3").waarde
-
-
-FACTUREN =
-    nr                  : integer required unique autonum
-    datum               : date required
-    VERWERKING          : VERWERKINGEN(1) opposite of FACTUREN
-    WERKGEVER           : WERKGEVERS(1) opposite of FACTUREN
-    REGELS              : FACTUURREGELS(*) opposite of FACTUUR
-    totaal_excl_btw     : decimal(10,2) = sum(REGELS.totaal_excl_btw)
-    totaal_incl_btw     : decimal(10,2) = sum(REGELS.totaal_incl_btw)
-    btw                 : decimal(10,2) = totaal_incl_btw - totaal_excl_btw
+// BEHANDELINGEN
+// description 'Verzamelconcept van alle behandelstappen van een patient.'
+// =
     
 
-FACTUURREGELS =
-    omschrijving        : text required
-    eenheid             : text required
-    bedrag_per_eenheid  : decimal(10,2) required
-    aantal_eenheden     : decimal(10,2) required
-    totaal_excl_btw     : decimal(10,2) required
-    totaal_incl_btw     : decimal(10,2) required
-    FACTUUR             : FACTUREN(1) opposite of REGELS
-    DEELNAME            : DEELNAMES(1) opposite of FACTUURREGELS
 
 
-VERWERKINGEN =
-    tijdstip        : timestamp
-    soort           : text(50)
-    start_periode   : date
-    eind_periode    : date
-    peildatum       : date
-    samenvatting    : text
-    FACTUREN        : FACTUREN(*) opposite of VERWERKING
-    datum           : date = datePart(tijdstip)

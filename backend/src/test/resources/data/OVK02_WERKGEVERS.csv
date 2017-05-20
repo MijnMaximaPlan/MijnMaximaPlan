@@ -1,4 +1,0 @@
-WERKGEVERS = FINALIZED:bool; DBID:num; KVKNR:num;NAAM:str;PLAATS:str;GEAUTHORISEERDSYSTEEM_ID:str
-TRUE                     ;1;111111; 'Angro BV'; 'Amsterdam';'werkgever_systeem_user'
-TRUE                     ;2;222222; 'Berlingo NV'; 'Barendrecht';NULL
-TRUE                     ;3;333333; 'CGI Nederland B.V.'; 'Rotterdam';NULL
