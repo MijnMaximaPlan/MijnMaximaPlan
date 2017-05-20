@@ -1,555 +1,1183 @@
-2017-05-20 13:35:16,603 [INFO] com.logica.pagen.server.Main - Starting SPADE Language Server on port 9542
-2017-05-20 13:35:16,747 [INFO] com.logica.pagen.server.Main - Listening to localhost/127.0.0.1:9542
-2017-05-20 13:35:17,223 [INFO] com.logica.pagen.server.Main - Connection accepted
-2017-05-20 13:35:17,280 [INFO] com.logica.pagen.server.SpadeLanguageServer - initialize: workspaceRoot=c:\Users\edhendriks\Documents\PA\projects\MijnMaximaPlan\backend
-2017-05-20 13:35:17,436 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/beheer%20staffels.spade, spec=PaSpec[beheer staffels]
-2017-05-20 13:35:17,443 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Beleggen.spade, spec=PaSpec[Beleggen]
-2017-05-20 13:35:17,467 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/documenten%20(R).spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:35:17,476 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/foutmeldingen%20(R).spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:35:17,506 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/generieke%20requirements%20(R).spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:35:17,550 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Innen.spade, spec=PaSpec[Innen]
-2017-05-20 13:35:17,584 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20(R).spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:35:17,586 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/messages%20(R).spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:35:17,593 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/niet%20gebruikte%20functionaliteit%20(R).spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:35:17,606 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Nieuwe%20deelnemer.spade, spec=PaSpec[Nieuwe deelnemer]
-2017-05-20 13:35:17,613 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/premieberekening%20(R).spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:35:17,622 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Uitvoeringsovereenkomst.spade, spec=PaSpec[Nieuwe uitvoeringsovereenkomst]
-2017-05-20 13:35:17,635 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Wijzigen%20arbeidsovereenkomst.spade, spec=PaSpec[Wijzigen arbeidsovereenkomst]
-2017-05-20 13:35:17,650 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Wijzigen%20werknemer%20door%20BRP.spade, spec=PaSpec[Wijzigen werknemer door BRP]
-2017-05-20 13:35:17,730 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeConfiguraton: DidChangeConfigurationParamsImpl [
+2017-05-20 15:56:58,344 [INFO] com.logica.pagen.server.Main - Starting SPADE Transcompiler server on port 9542
+2017-05-20 15:56:58,392 [INFO] com.logica.pagen.server.SpadeTextDocumentService - onPublishDiagnostics: io.typefox.lsapi.services.transport.server.LanguageServerEndpoint$$Lambda$8/1376400422@18eed359
+2017-05-20 15:56:58,394 [INFO] com.logica.pagen.server.SpadeLanguageServer - onShowMessage: io.typefox.lsapi.services.transport.server.LanguageServerEndpoint$$Lambda$10/25548982@67784306
+2017-05-20 15:56:58,419 [INFO] com.logica.pagen.server.Main - Listening to localhost/127.0.0.1:9542
+2017-05-20 15:56:58,608 [INFO] com.logica.pagen.server.Main - Connection accepted
+2017-05-20 15:56:58,655 [INFO] com.logica.pagen.server.SpadeLanguageServer - initialize: workspaceRoot=c:\CGI\gitrepos\MijnMaximaPlan\backend
+2017-05-20 15:56:58,774 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/foutmeldingen%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 15:56:58,806 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/generieke%20requirements%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 15:56:58,821 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c:/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20(R).spade, spec=PaSpec[Reusable definitions]
+2017-05-20 15:56:58,853 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeConfiguraton: DidChangeConfigurationParamsImpl [
   settings = {spade={}}
 ]
-2017-05-20 13:35:31,989 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:56:58,854 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - didOpen: DidOpenTextDocumentParamsImpl [
+  textDocument = TextDocumentItemImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    languageId = "spade"
+    version = 1
+    text = "Process 'Reusable definitions'\r\n\r\ndescription 'Domeinmodel voor Project Roadmap Prinses Maxima Centrum.'\r\n\r\nPATIENTEN\r\ndescription 'Concept Patient uit ZIBS.'\r\n=\r\n    patientidentificatienummer  : text //optional\r\n    geboortedatum               : timestamp required\r\n    geslacht                    : ['UN', 'M', 'F', 'UNK'] required\r\n    meerling_indicator          : boolean //optional\r\n    overlijdens_indicator       : boolean //optional\r\n    datum_overlijden            : timestamp //optional\r\n    NAAMGEGEVENS                : NAAMGEGEVENS(1) required\r\n    ADRESGEGEVENS               : ADRESGEGEVENS(*) /* optional */ opposite of PATIENT\r\n    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) /* optional */ opposite of PATIENT\r\n/* Toevoegen: ouders/verzorgers; contactvoorkeuren */\r\n    OUDERS_VERZORGERS           : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT\r\n    BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT\r\n\r\nNAAMGEGEVENS\r\ndescription 'Concept Naamgegevens uit ZIBS.'\r\n=\r\n    voornamen                   : text //optional\r\n    initialen                   : text //optional\r\n    roepnaam                    : text //optional\r\n    naamgebruik                 : ['NL1', 'NL2', 'NL3', 'NL4', 'UNK'] //optional // NL1 = Eigen geslachtsnaam, etc.\r\n    GESLACHTSNAAM               : GESLACHTSNAMEN(1) //optional\r\n    GESLACHTSNAAMPARTNER        : GESLACHTSNAMEN(1) //optional\r\n\r\nGESLACHTSNAMEN\r\ndescription 'Concept GeslachtsNaam, GeslachtsnaamPartner uit ZIBS.'\r\n=\r\n    voorvoegsels                : text //optional\r\n    achternaam                  : text required\r\n\r\nADRESGEGEVENS\r\ndescription 'Concept Adresgegevens uit ZIBS.'\r\n=\r\n    straat                      : text //optional\r\n    huisnummer                  : text //optional\r\n    huisnummerletter            : text //optional\r\n    huisnummertoevoeging        : text //optional\r\n    aanduiding_bij_nummer       : ['to', 'by'] //optional // staatvoor tegenover en bij\r\n    postcode                    : text //optional\r\n    woonplaats                  : text //optional\r\n    gemeente                    : text //optional\r\n    land                        : text //optional // Land GBA of ISO codelijst\r\n    additionele_informatie      : text //optional\r\n    adres_soort                 : ['PST', 'HP', 'PHYS', 'TMP', 'WP', 'HV'] //optional // bijv. PST postal address, HP primary home, etc.\r\n    PATIENT                     : PATIENTEN opposite of ADRESGEGEVENS\r\n\r\nCONTACTGEGEVENS\r\ndescription 'Concept Contactgegevens uit ZIBS.'\r\n=\r\n    TELEFOONNUMMERS             : TELEFOONNUMMERS(*) /* optional */ opposite of CONTACTGEGEVEN\r\n    EMAILADRESSEN               : EMAILADRESSEN(*) /* optional */ opposite of CONTACTGEGEVEN\r\n    PATIENT                     : PATIENTEN(1) opposite of CONTACTGEGEVENS\r\n\r\nTELEFOONNUMMERS\r\ndescription 'Concept Telefoonnummers uit ZIBS.'\r\n=\r\n    telefoonnummer              : text required\r\n    nummer_soort                : ['HP', 'TMP', 'WP', 'MC', 'PG'] required // bijv. HP primary home, WP Work Place, MC mobile contact, etc.\r\n    CONTACTGEGEVEN              : CONTACTGEGEVENS(1) opposite of TELEFOONNUMMERS\r\n\r\nEMAILADRESSEN\r\ndescription 'Concept Emailadressen uit ZIBS.'\r\n=\r\n    emailadres                  : text required\r\n    emailsoort                  : ['HP', 'WP'] required\r\n    CONTACTGEGEVEN              : CONTACTGEGEVENS(1) opposite of EMAILADRESSEN\r\n\r\nCONTACTPERSONEN\r\ndescription 'Concept Contactpersonen uit ZIBS; wordt gebruikt om m.n. ouders te modelleren.'\r\n=\r\n    NAAMGEGEVENS                : NAAMGEGEVENS(1) required\r\n    ADRESGEGEVENS               : ADRESGEGEVENS(*) //optional\r\n    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) //optional\r\n    PATIENT                     : PATIENTEN(1) required opposite of OUDERS_VERZORGERS\r\n    rol                         : text(2) // 1 = 1e contactpersoon, 2 = 2e contactpersoon, 11 = voogd; etc.\r\n    relatie                     : text(10) // FTH = father, MTH = mother\r\n    GEBRUIKER                   : USERS(1) //optional\r\n\r\nBEHANDELTRAJECTEN\r\ndescription 'Verzamelconcept van alle behandelstappen van een patient in de context van één bepaald traject.'\r\n=\r\n    PATIENT                     : PATIENTEN(1) required opposite of BEHANDELING\r\n    STAPPEN                     : BEHANDELSTAPPEN(*) /* optional */ opposite of BEHANDELTRAJECT\r\n    THERAPIE                    : THERAPIEEN(1) /* optional */\r\n    startdatum                  : date required\r\n\r\nBEHANDELSTAPPEN\r\ndescription 'Komt overeen met een enkel contactmoment; vallen onder een BEHANDELING; hier worden alleen opgenomen de stappen die al zijn uitgevoerd, of zijn ingepland/voorgesorteerd.'\r\n=\r\n    verrichting                 : text required\r\n    volgnummer                  : integer required\r\n    status                      : text\r\n    VORIGE                      : ZORGACTIVITEITEN(1) opposite of VOLGENDE\r\n    VOLGENDE                    : ZORGACTIVITEITEN(1) opposite of VORIGE\r\n    BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) required opposite of STAPPEN\r\n    THERAPIESTAP                : THERAPIESTAPPEN(1)\r\n    AFSPRAKEN                   : AFSPRAKEN(*) /* optional */ opposite of BEHANDELSTAP\r\n\r\nTHERAPIEEN\r\ndescription 'Definitie van een kuur, bijv. een bepaalde soort chemotherapie. Feitelijk een tijdelijke vervanging van PRACTOCOL oid.'\r\n=\r\n    soort                       : text\r\n    STAPPEN                     : THERAPIESTAPPEN(*) /* optional */ opposite of THERAPIE\r\n\r\nTHERAPIESTAPPEN\r\ndescription 'Stappen die onderdeel uitmaken van een kuur.'\r\n=\r\n    verrichting                 : text required\r\n    volgnummer                  : integer required\r\n    interval                    : text required // bijv. '3 weeks'\r\n    THERAPIE                    : THERAPIEEN(1) opposite of STAPPEN\r\n\r\nAFSPRAKEN\r\ndescription 'Afspraak voor behandelstap'\r\n=\r\n    datum                       : date\r\n    tijd                        : timestamp\r\n    locatie                     : text\r\n    status                      : text\r\n\r\n"
+  ]
+  text = null
+  uri = null
+]
+2017-05-20 15:57:07,506 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 137
-    character = 31
+    line = 93
+    character = 6
   ]
 ]
-2017-05-20 13:35:32,150 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didClose: DidCloseTextDocumentParamsImpl [
+2017-05-20 15:57:07,709 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-  ]
-]
-2017-05-20 13:38:30,318 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
-  changes = ArrayList (
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-      type = Changed
-    ]
-  )
-]
-2017-05-20 13:38:43,490 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:38:43,491 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:18:4 - Unexpected 'OUDERS_VERZORGERS' (of type ID): expecting EOF
-2017-05-20 13:40:00,889 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
-  changes = ArrayList (
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Innen.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Beleggen.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/messages%20%28R%29.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/documenten%20%28R%29.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/beheer%20staffels.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Nieuwe%20deelnemer.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/foutmeldingen%20%28R%29.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/premieberekening%20%28R%29.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Uitvoeringsovereenkomst.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/generieke%20requirements%20%28R%29.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Wijzigen%20werknemer%20door%20BRP.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/Wijzigen%20arbeidsovereenkomst.spade"
-      type = Deleted
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/niet%20gebruikte%20functionaliteit%20%28R%29.spade"
-      type = Deleted
-    ]
-  )
-]
-2017-05-20 13:41:38,587 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
-  changes = ArrayList (
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/foutmeldingen%20%28R%29.spade"
-      type = Created
-    ],
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/generieke%20requirements%20%28R%29.spade"
-      type = Created
-    ]
-  )
-]
-2017-05-20 13:41:38,608 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/foutmeldingen%20%28R%29.spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:41:38,631 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/generieke%20requirements%20%28R%29.spade, spec=PaSpec[Reusable definitions]
-2017-05-20 13:42:32,486 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:42:32,487 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:18:4 - Unexpected 'OUDERS_VERZORGERS' (of type ID): expecting EOF
-2017-05-20 13:42:34,037 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
-  textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-  ]
-]
-2017-05-20 13:42:34,391 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
-  changes = ArrayList (
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-      type = Changed
-    ]
-  )
-]
-2017-05-20 13:45:10,351 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:10,351 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:54:53 - Unexpected 'o' (of type ID): expecting EOF
-2017-05-20 13:45:10,538 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:10,539 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:54:53 - Unexpected 'op' (of type ID): expecting EOF
-2017-05-20 13:45:10,673 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:10,674 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:54:53 - Unexpected 'opp' (of type ID): expecting EOF
-2017-05-20 13:45:11,534 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:11,535 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:54:53 - Unexpected 'oppo' (of type ID): expecting EOF
-2017-05-20 13:45:11,653 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:11,653 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:54:53 - Unexpected 'oppos' (of type ID): expecting EOF
-2017-05-20 13:45:11,823 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:11,824 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:54:53 - Unexpected 'opposi' (of type ID): expecting EOF
-2017-05-20 13:45:11,987 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:11,988 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:54:53 - Unexpected 'opposite' (of type ID): expecting EOF
-2017-05-20 13:45:12,126 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:54:62 - mismatched character '\r' expecting 'o'
-2017-05-20 13:45:12,314 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:54:63 - mismatched character '\r' expecting 'f'
-2017-05-20 13:45:12,519 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:12,520 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:55:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:45:26,792 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:26,793 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:62:4 - Unexpected 'CONTACTGEGEVEN' (of type ID): expecting EOF
-2017-05-20 13:45:26,916 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:26,917 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:62:4 - Unexpected 'CONTACTGEGEVEN' (of type ID): expecting EOF
-2017-05-20 13:45:30,218 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:30,219 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:62:4 - Unexpected 'CONTACTGEGEVEN' (of type ID): expecting EOF
-2017-05-20 13:45:31,915 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:62:43 - mismatched character '\r' expecting 'o'
-2017-05-20 13:45:31,916 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:31,917 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [2] PARSER: LDM (R).spade:67:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:45:32,080 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:32,081 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@371,2433:2447='TELEFOONNUMMERS',<52>,57:0]
-2017-05-20 13:45:32,082 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@371,2433:2447='TELEFOONNUMMERS',<52>,57:0]
-2017-05-20 13:45:32,082 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@380,2506:2519='telefoonnummer',<52>,60:4]
-2017-05-20 13:45:32,082 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@413,2696:2709='CONTACTGEGEVEN',<52>,62:4]
-2017-05-20 13:45:32,084 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@417,2726:2736='opposite of',<80>,62:34]
-2017-05-20 13:45:32,084 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:62:34 - no viable alternative at input 'opposite of'
-2017-05-20 13:45:32,086 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:32,087 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [2] PARSER: LDM (R).spade:67:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:45:32,223 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:32,224 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@371,2433:2447='TELEFOONNUMMERS',<52>,57:0]
-2017-05-20 13:45:32,224 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@371,2433:2447='TELEFOONNUMMERS',<52>,57:0]
-2017-05-20 13:45:32,224 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@380,2506:2519='telefoonnummer',<52>,60:4]
-2017-05-20 13:45:32,225 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@413,2696:2709='CONTACTGEGEVEN',<52>,62:4]
-2017-05-20 13:45:32,225 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@417,2726:2736='opposite of',<80>,62:34]
-2017-05-20 13:45:32,225 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:62:34 - no viable alternative at input 'opposite of'
-2017-05-20 13:45:32,226 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:32,226 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [2] PARSER: LDM (R).spade:67:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:45:40,308 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
-  textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 50
+    line = 92
     character = 7
   ]
 ]
-2017-05-20 13:45:41,704 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:57:08,720 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 61
-    character = 34
+    line = 93
+    character = 19
   ]
 ]
-2017-05-20 13:45:41,947 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:62:61 - mismatched character '\r' expecting 't'
-2017-05-20 13:45:42,466 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:42,467 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:67:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:45:47,248 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:57:09,399 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 53
-    character = 8
+    line = 93
+    character = 19
   ]
 ]
-2017-05-20 13:45:50,209 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:57:10,679 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 61
-    character = 52
+    line = 98
+    character = 38
   ]
 ]
-2017-05-20 13:45:51,551 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:45:51,552 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@371,2433:2447='TELEFOONNUMMERS',<52>,57:0]
-2017-05-20 13:45:51,552 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@371,2433:2447='TELEFOONNUMMERS',<52>,57:0]
-2017-05-20 13:45:51,552 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@380,2506:2519='telefoonnummer',<52>,60:4]
-2017-05-20 13:45:51,552 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@413,2696:2709='CONTACTGEGEVEN',<52>,62:4]
-2017-05-20 13:45:51,552 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@417,2726:2740='CONTACTGEGEVENS',<52>,62:34]
-2017-05-20 13:45:51,553 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@418,2741:2741='(',<65>,62:49]
-2017-05-20 13:45:51,553 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:62:50 - no viable alternative at input ')'
-2017-05-20 13:45:52,821 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+2017-05-20 15:57:11,165 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 98
+    character = 38
   ]
 ]
-2017-05-20 13:45:53,159 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+2017-05-20 15:57:11,230 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 98
+    character = 38
+  ]
+]
+2017-05-20 15:57:11,700 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 98
+    character = 38
+  ]
+]
+2017-05-20 15:57:12,223 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 98
+    character = 39
+  ]
+]
+2017-05-20 15:57:12,426 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 98
+    character = 39
+  ]
+]
+2017-05-20 15:57:12,591 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 98
+    character = 39
+  ]
+]
+2017-05-20 15:57:12,980 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 98
+    character = 39
+  ]
+]
+2017-05-20 15:57:13,233 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 99
+    character = 39
+  ]
+]
+2017-05-20 15:57:14,174 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 99
+    character = 39
+  ]
+]
+2017-05-20 15:57:14,299 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 99
+    character = 39
+  ]
+]
+2017-05-20 15:57:15,517 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 101
+    character = 42
+  ]
+]
+2017-05-20 15:57:24,128 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:57:24,528 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
   changes = ArrayList (
     FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
       type = Changed
     ]
   )
 ]
-2017-05-20 13:46:29,322 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
-  changes = ArrayList (
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-      type = Changed
-    ]
-  )
-]
-2017-05-20 13:47:18,654 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:47:18,654 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:54:53 - Unexpected '/' (of type DIV): expecting EOF
-2017-05-20 13:47:19,021 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:76:0 - mismatched character '<EOF>' expecting '*'
-2017-05-20 13:47:19,381 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:76:0 - mismatched character '<EOF>' expecting '*'
-2017-05-20 13:47:20,643 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:76:0 - mismatched character '<EOF>' expecting '*'
-2017-05-20 13:47:33,822 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:47:33,822 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:55:51 - Unexpected '/' (of type DIV): expecting EOF
-2017-05-20 13:47:34,367 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:76:0 - mismatched character '<EOF>' expecting '*'
-2017-05-20 13:47:34,496 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:76:0 - mismatched character '<EOF>' expecting '*'
-2017-05-20 13:47:35,589 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:76:0 - mismatched character '<EOF>' expecting '*'
-2017-05-20 13:47:36,305 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:76:0 - mismatched character '<EOF>' expecting '*'
-2017-05-20 13:47:43,267 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:57:25,235 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 53
-    character = 68
+    line = 101
+    character = 39
   ]
 ]
-2017-05-20 13:47:43,920 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:57:26,187 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 53
-    character = 68
+    line = 101
+    character = 39
   ]
 ]
-2017-05-20 13:47:59,339 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:57:28,636 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 61
+    line = 101
+    character = 39
+  ]
+]
+2017-05-20 15:57:55,974 [INFO] com.logica.pagen.server.SpadeTextDocumentService - completion: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 125
     character = 5
   ]
 ]
-2017-05-20 13:48:19,600 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:57:59,956 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:4 - Unexpected 'BEHANDELSTAP' (of type ID): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:00,145 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:4 - Unexpected 'BEHANDELSTAP' (of type ID): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:00,673 [INFO] com.logica.pagen.server.SpadeTextDocumentService - completion: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 54
-    character = 9
+    line = 125
+    character = 35
   ]
 ]
-2017-05-20 13:48:23,904 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:58:04,006 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:50 - no viable alternative at input ')'
+
+org.antlr.runtime.NoViableAltException: null
+	at com.logica.pagen.parser.PaAntlrParser.cardinality(PaAntlrParser.java:2560) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberType(PaAntlrParser.java:2376) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2179) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:11,070 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:53 - Unexpected 're' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:11,279 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:53 - Unexpected 'req' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:11,555 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:53 - Unexpected 'require' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:13,476 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:62 - Unexpected 'o' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:13,713 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:62 - Unexpected 'op' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:13,861 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:62 - Unexpected 'opp' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:14,079 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:62 - Unexpected 'oppo' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:14,333 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:62 - Unexpected 'oppois' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:15,254 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:62 - Unexpected 'oppoi' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:15,501 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:62 - Unexpected 'oppos' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:15,820 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 126:62 - Unexpected 'opposite' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:15,970 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1]  LEXER: null line 126:71 mismatched character '\r' expecting 'o'
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.Lexer.match(Lexer.java:185) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mOPPOSITE_OF(PaAntlrLexer.java:1743) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mTokens(PaAntlrLexer.java:3702) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.Lexer.nextToken(Lexer.java:85) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.AbstractPaAntlrLexer.nextToken(AbstractPaAntlrLexer.java:52) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.fetch(BufferedTokenStream.java:143) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.sync(BufferedTokenStream.java:137) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.CommonTokenStream.consume(CommonTokenStream.java:71) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:106) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3052) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:23,819 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1]  LEXER: null line 126:71 mismatched character 'A' expecting 'o'
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.Lexer.match(Lexer.java:185) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mOPPOSITE_OF(PaAntlrLexer.java:1743) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mTokens(PaAntlrLexer.java:3702) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.Lexer.nextToken(Lexer.java:85) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.AbstractPaAntlrLexer.nextToken(AbstractPaAntlrLexer.java:52) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.fetch(BufferedTokenStream.java:143) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.sync(BufferedTokenStream.java:137) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.CommonTokenStream.consume(CommonTokenStream.java:71) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:106) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3052) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:24,248 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1]  LEXER: null line 126:71 mismatched character 'A' expecting 'o'
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.Lexer.match(Lexer.java:185) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mOPPOSITE_OF(PaAntlrLexer.java:1743) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mTokens(PaAntlrLexer.java:3702) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.Lexer.nextToken(Lexer.java:85) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.AbstractPaAntlrLexer.nextToken(AbstractPaAntlrLexer.java:52) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.fetch(BufferedTokenStream.java:143) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.sync(BufferedTokenStream.java:137) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.CommonTokenStream.consume(CommonTokenStream.java:71) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:106) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3052) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:24,248 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 2] PARSER: null line 126:72 - Unexpected 'F' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:24,674 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1]  LEXER: null line 126:71 mismatched character 'A' expecting 'o'
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.Lexer.match(Lexer.java:185) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mOPPOSITE_OF(PaAntlrLexer.java:1743) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mTokens(PaAntlrLexer.java:3702) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.Lexer.nextToken(Lexer.java:85) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.AbstractPaAntlrLexer.nextToken(AbstractPaAntlrLexer.java:52) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.fetch(BufferedTokenStream.java:143) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.sync(BufferedTokenStream.java:137) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.CommonTokenStream.consume(CommonTokenStream.java:71) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:106) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3052) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:24,674 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 2] PARSER: null line 126:72 - Unexpected 'FS' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:24,876 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1]  LEXER: null line 126:71 mismatched character 'A' expecting 'o'
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.Lexer.match(Lexer.java:185) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mOPPOSITE_OF(PaAntlrLexer.java:1743) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mTokens(PaAntlrLexer.java:3702) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.Lexer.nextToken(Lexer.java:85) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.AbstractPaAntlrLexer.nextToken(AbstractPaAntlrLexer.java:52) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.fetch(BufferedTokenStream.java:143) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.sync(BufferedTokenStream.java:137) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.CommonTokenStream.consume(CommonTokenStream.java:71) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:106) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3052) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:24,876 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 2] PARSER: null line 126:72 - Unexpected 'FSP' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:25,125 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1]  LEXER: null line 126:71 mismatched character 'A' expecting 'o'
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.Lexer.match(Lexer.java:185) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mOPPOSITE_OF(PaAntlrLexer.java:1743) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mTokens(PaAntlrLexer.java:3702) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.Lexer.nextToken(Lexer.java:85) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.AbstractPaAntlrLexer.nextToken(AbstractPaAntlrLexer.java:52) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.fetch(BufferedTokenStream.java:143) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.sync(BufferedTokenStream.java:137) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.CommonTokenStream.consume(CommonTokenStream.java:71) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:106) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3052) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:25,125 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 2] PARSER: null line 126:72 - Unexpected 'FSPRA' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:25,476 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1]  LEXER: null line 126:71 mismatched character 'A' expecting 'o'
+
+org.antlr.runtime.MismatchedTokenException: null
+	at org.antlr.runtime.Lexer.match(Lexer.java:185) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mOPPOSITE_OF(PaAntlrLexer.java:1743) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrLexer.mTokens(PaAntlrLexer.java:3702) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.Lexer.nextToken(Lexer.java:85) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.AbstractPaAntlrLexer.nextToken(AbstractPaAntlrLexer.java:52) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.fetch(BufferedTokenStream.java:143) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BufferedTokenStream.sync(BufferedTokenStream.java:137) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.CommonTokenStream.consume(CommonTokenStream.java:71) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:106) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.memberDetail(PaAntlrParser.java:3052) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMember(PaAntlrParser.java:2233) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityMembers(PaAntlrParser.java:2093) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.entityDecl(PaAntlrParser.java:1910) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.decl(PaAntlrParser.java:706) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:283) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:25,476 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 2] PARSER: null line 126:72 - Unexpected 'FSPRAKEN' (of type ID): expecting EOF
+
+org.antlr.runtime.UnwantedTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:594) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 15:58:27,224 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 68
-    character = 68
+    line = 123
+    character = 23
   ]
 ]
-2017-05-20 13:48:24,118 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:58:29,216 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-  ]
-  uri = null
-  position = PositionImpl [
-    line = 68
-    character = 68
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
 ]
-2017-05-20 13:48:24,823 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
-  textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-  ]
-  uri = null
-  position = PositionImpl [
-    line = 68
-    character = 68
-  ]
-]
-2017-05-20 13:48:25,014 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
-  textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-  ]
-]
-2017-05-20 13:48:25,250 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
-  textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-  ]
-  uri = null
-  position = PositionImpl [
-    line = 68
-    character = 68
-  ]
-]
-2017-05-20 13:48:25,390 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+2017-05-20 15:58:29,511 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
   changes = ArrayList (
     FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
       type = Changed
     ]
   )
 ]
-2017-05-20 13:49:31,421 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:49:31,421 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:15:51 - Unexpected '/' (of type DIV): expecting EOF
-2017-05-20 13:49:35,953 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:49:35,953 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:49:36,804 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:49:36,804 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:50:50,104 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:50,105 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:28 - Unexpected 'Q' (of type ID): expecting EOF
-2017-05-20 13:50:51,541 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:51,542 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:4 - Unexpected 'PATIENT' (of type ID): expecting EOF
-2017-05-20 13:50:51,733 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:51,733 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:4 - Unexpected 'PATIENT' (of type ID): expecting EOF
-2017-05-20 13:50:54,942 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:54,943 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:44 - Unexpected 'O' (of type ID): expecting EOF
-2017-05-20 13:50:55,216 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:55,217 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:44 - Unexpected 'OP' (of type ID): expecting EOF
-2017-05-20 13:50:55,342 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:55,342 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:44 - Unexpected 'OPP' (of type ID): expecting EOF
-2017-05-20 13:50:55,657 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:55,658 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:44 - Unexpected 'OP' (of type ID): expecting EOF
-2017-05-20 13:50:55,793 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:55,796 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:44 - Unexpected 'O' (of type ID): expecting EOF
-2017-05-20 13:50:56,280 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:56,281 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:50:44 - Unexpected 'o' (of type ID): expecting EOF
-2017-05-20 13:50:56,885 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:58:55,509 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 48
-    character = 81
+    line = 125
+    character = 72
   ]
 ]
-2017-05-20 13:50:56,952 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:56,953 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:55:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:50:57,539 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:50:57,540 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:55:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:51:03,334 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+2017-05-20 15:58:56,059 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
   ]
   uri = null
   position = PositionImpl [
-    line = 48
-    character = 81
+    line = 125
+    character = 72
   ]
 ]
-2017-05-20 13:51:03,444 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+2017-05-20 15:59:03,740 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 125
+    character = 64
   ]
 ]
-2017-05-20 13:51:03,802 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+2017-05-20 15:59:04,800 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 125
+    character = 71
+  ]
+]
+2017-05-20 15:59:05,587 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 125
+    character = 75
+  ]
+]
+2017-05-20 15:59:13,652 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 113
+    character = 2
+  ]
+]
+2017-05-20 15:59:14,375 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 15:59:14,794 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
   changes = ArrayList (
     FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
       type = Changed
     ]
   )
 ]
-2017-05-20 13:51:25,262 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:25,263 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:53 - Unexpected '/' (of type DIV): expecting EOF
-2017-05-20 13:51:27,974 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:27,974 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'OP' (of type ID): expecting EOF
-2017-05-20 13:51:28,243 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:28,244 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'OPP' (of type ID): expecting EOF
-2017-05-20 13:51:28,558 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:28,559 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'OPPO' (of type ID): expecting EOF
-2017-05-20 13:51:28,687 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:28,687 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'OPPOS' (of type ID): expecting EOF
-2017-05-20 13:51:29,026 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:29,026 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'OPPO' (of type ID): expecting EOF
-2017-05-20 13:51:29,151 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:29,151 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'OPP' (of type ID): expecting EOF
-2017-05-20 13:51:29,312 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:29,312 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'OP' (of type ID): expecting EOF
-2017-05-20 13:51:29,482 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:29,482 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'O' (of type ID): expecting EOF
-2017-05-20 13:51:30,245 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:30,245 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'o' (of type ID): expecting EOF
-2017-05-20 13:51:30,464 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:30,465 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'op' (of type ID): expecting EOF
-2017-05-20 13:51:30,609 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:30,610 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'opp' (of type ID): expecting EOF
-2017-05-20 13:51:30,828 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:30,828 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'oppos' (of type ID): expecting EOF
-2017-05-20 13:51:30,981 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:30,981 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:16:68 - Unexpected 'opposi' (of type ID): expecting EOF
-2017-05-20 13:51:31,124 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:16:77 - mismatched character '\r' expecting 'o'
-2017-05-20 13:51:31,226 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:16:77 - mismatched character '\r' expecting 'o'
-2017-05-20 13:51:31,414 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:31,415 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:23:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:51:31,733 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:31,733 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:23:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:51:36,953 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:36,953 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:23:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:51:40,280 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+2017-05-20 15:59:22,644 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 115
+    character = 16
   ]
 ]
-2017-05-20 13:51:40,633 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+2017-05-20 15:59:35,900 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 125
+    character = 71
+  ]
+]
+2017-05-20 15:59:37,073 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 124
+    character = 29
+  ]
+]
+2017-05-20 15:59:44,784 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 87
+    character = 44
+  ]
+]
+2017-05-20 15:59:59,652 [INFO] com.logica.pagen.server.SpadeTextDocumentService - completion: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 87
+    character = 77
+  ]
+]
+2017-05-20 16:00:06,086 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 16:00:06,359 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
   changes = ArrayList (
     FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
       type = Changed
     ]
   )
 ]
-2017-05-20 13:51:57,586 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:57,586 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:4 - Unexpected 'PATIENT' (of type ID): expecting EOF
-2017-05-20 13:51:57,749 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:57,749 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:4 - Unexpected 'PATIENT' (of type ID): expecting EOF
-2017-05-20 13:51:59,883 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:51:59,883 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@357,2337:2351='CONTACTGEGEVENS',<52>,52:0]
-2017-05-20 13:51:59,883 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@357,2337:2351='CONTACTGEGEVENS',<52>,52:0]
-2017-05-20 13:51:59,884 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@366,2410:2424='TELEFOONNUMMERS',<52>,55:4]
-2017-05-20 13:51:59,884 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@398,2600:2606='PATIENT',<52>,57:4]
-2017-05-20 13:51:59,884 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@402,2630:2638='PATIENTEN',<52>,57:34]
-2017-05-20 13:51:59,884 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@403,2639:2639='(',<65>,57:43]
-2017-05-20 13:51:59,885 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:44 - no viable alternative at input ')'
-2017-05-20 13:52:01,022 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:01,022 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@357,2337:2351='CONTACTGEGEVENS',<52>,52:0]
-2017-05-20 13:52:01,022 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@357,2337:2351='CONTACTGEGEVENS',<52>,52:0]
-2017-05-20 13:52:01,022 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@366,2410:2424='TELEFOONNUMMERS',<52>,55:4]
-2017-05-20 13:52:01,023 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@398,2600:2606='PATIENT',<52>,57:4]
-2017-05-20 13:52:01,023 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@402,2630:2638='PATIENTEN',<52>,57:34]
-2017-05-20 13:52:01,023 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@403,2639:2639='(',<65>,57:43]
-2017-05-20 13:52:01,023 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:59:0 - no viable alternative at input 'TELEFOONNUMMERS'
-2017-05-20 13:52:01,159 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:01,160 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - decl [@357,2337:2351='CONTACTGEGEVENS',<52>,52:0]
-2017-05-20 13:52:01,160 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityDecl [@357,2337:2351='CONTACTGEGEVENS',<52>,52:0]
-2017-05-20 13:52:01,160 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMembers [@366,2410:2424='TELEFOONNUMMERS',<52>,55:4]
-2017-05-20 13:52:01,160 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - entityMember [@398,2600:2606='PATIENT',<52>,57:4]
-2017-05-20 13:52:01,160 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - memberType [@402,2630:2638='PATIENTEN',<52>,57:34]
-2017-05-20 13:52:01,160 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinality [@403,2639:2639='(',<65>,57:43]
-2017-05-20 13:52:01,160 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - cardinalityParams [@404,2640:2640='1',<57>,57:44]
-2017-05-20 13:52:01,161 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:59:0 - no viable alternative at input 'TELEFOONNUMMERS'
-2017-05-20 13:52:03,136 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:03,137 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'OP' (of type ID): expecting EOF
-2017-05-20 13:52:03,296 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:03,297 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'OPP' (of type ID): expecting EOF
-2017-05-20 13:52:03,690 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:03,691 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'OP' (of type ID): expecting EOF
-2017-05-20 13:52:03,828 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:03,828 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'O' (of type ID): expecting EOF
-2017-05-20 13:52:04,660 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:04,660 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'o' (of type ID): expecting EOF
-2017-05-20 13:52:04,907 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:04,907 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'op' (of type ID): expecting EOF
-2017-05-20 13:52:05,035 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:05,035 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'opp' (of type ID): expecting EOF
-2017-05-20 13:52:05,302 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:05,302 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'oppi' (of type ID): expecting EOF
-2017-05-20 13:52:05,766 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:05,767 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'opp' (of type ID): expecting EOF
-2017-05-20 13:52:06,072 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:06,073 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'oppo' (of type ID): expecting EOF
-2017-05-20 13:52:06,253 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:06,253 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'oppos' (of type ID): expecting EOF
-2017-05-20 13:52:06,429 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:06,430 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:57:47 - Unexpected 'opposit' (of type ID): expecting EOF
-2017-05-20 13:52:06,582 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:57:56 - mismatched character '\r' expecting 'o'
-2017-05-20 13:52:06,755 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] LEXER: LDM (R).spade:57:57 - mismatched character '\r' expecting 'f'
-2017-05-20 13:52:06,923 [DEBUG] com.logica.pagen.parser.AbstractPaAntlrParser - start [@0,0:6='Process',<83>,1:0]
-2017-05-20 13:52:06,923 [DEBUG] com.logica.pagen.server.error.DiagnosticErrorHandler - [1] PARSER: LDM (R).spade:62:32 - Unexpected ':' (of type COLON): expecting EOF
-2017-05-20 13:52:11,990 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+2017-05-20 16:00:08,799 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 82
+    character = 11
   ]
 ]
-2017-05-20 13:52:12,352 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+2017-05-20 16:00:41,295 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 77
+    character = 0
+  ]
+]
+2017-05-20 16:00:41,562 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 77
+    character = 1
+  ]
+]
+2017-05-20 16:00:42,708 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 77
+    character = 1
+  ]
+]
+2017-05-20 16:00:42,958 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 77
+    character = 0
+  ]
+]
+2017-05-20 16:00:45,781 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 77
+    character = 0
+  ]
+]
+2017-05-20 16:00:46,983 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 77
+    character = 3
+  ]
+]
+2017-05-20 16:00:47,648 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 77
+    character = 0
+  ]
+]
+2017-05-20 16:00:49,112 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 77
+    character = 4
+  ]
+]
+2017-05-20 16:00:58,515 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 78:0 - Unexpected '/' (of type DIV): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:01:00,747 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 79:0 - Unexpected '/' (of type DIV): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:01:01,969 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 27
+  ]
+]
+2017-05-20 16:01:02,361 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 80
+    character = 61
+  ]
+]
+2017-05-20 16:01:02,726 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 80
+    character = 61
+  ]
+]
+2017-05-20 16:01:09,647 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 73
+    character = 4
+  ]
+]
+2017-05-20 16:01:09,787 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 16:01:10,173 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
   changes = ArrayList (
     FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
       type = Changed
     ]
   )
 ]
-2017-05-20 13:52:18,367 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeConfiguraton: DidChangeConfigurationParamsImpl [
-  settings = {spade={}}
-]
-2017-05-20 13:52:23,431 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
-  changes = ArrayList (
-    FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
-      type = Changed
-    ]
-  )
-]
-2017-05-20 13:52:57,645 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+2017-05-20 16:01:11,409 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
   textDocument = TextDocumentIdentifierImpl [
-    uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 73
+    character = 4
   ]
 ]
-2017-05-20 13:52:58,000 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+2017-05-20 16:01:55,235 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 2
+  ]
+]
+2017-05-20 16:01:55,690 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 17
+  ]
+]
+2017-05-20 16:01:56,490 [INFO] com.logica.pagen.server.SpadeTextDocumentService - definition: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 17
+  ]
+]
+2017-05-20 16:01:56,671 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 17
+  ]
+]
+2017-05-20 16:01:57,376 [DEBUG] com.logica.pagen.server.SpadeTextDocumentService - hover: TextDocumentPositionParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+  uri = null
+  position = PositionImpl [
+    line = 78
+    character = 17
+  ]
+]
+2017-05-20 16:02:02,949 [INFO] com.logica.pagen.server.SpadeTextDocumentService - didSave: DidSaveTextDocumentParamsImpl [
+  textDocument = TextDocumentIdentifierImpl [
+    uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+  ]
+]
+2017-05-20 16:02:03,224 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
   changes = ArrayList (
     FileEventImpl [
-      uri = "file:///c%3A/Users/edhendriks/Documents/PA/projects/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
       type = Changed
     ]
   )

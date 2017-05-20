@@ -16,6 +16,7 @@ description 'Concept Patient uit ZIBS.'
     CONTACTGEGEVENS             : CONTACTGEGEVENS(*) /* optional */ opposite of PATIENT
 /* Toevoegen: ouders/verzorgers; contactvoorkeuren */
     OUDERS_VERZORGERS           : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT
+    BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
 
 NAAMGEGEVENS
 description 'Concept Naamgegevens uit ZIBS.'
@@ -23,7 +24,7 @@ description 'Concept Naamgegevens uit ZIBS.'
     voornamen                   : text //optional
     initialen                   : text //optional
     roepnaam                    : text //optional
-    naamgebruik                 : ['NL1', 'NL2', 'NL3', 'NL4', 'UNK'] //optional // NL1 = Egen geslachtsnaam, etc.
+    naamgebruik                 : ['NL1', 'NL2', 'NL3', 'NL4', 'UNK'] //optional // NL1 = Eigen geslachtsnaam, etc.
     GESLACHTSNAAM               : GESLACHTSNAMEN(1) //optional
     GESLACHTSNAAMPARTNER        : GESLACHTSNAMEN(1) //optional
 
@@ -71,7 +72,7 @@ description 'Concept Emailadressen uit ZIBS.'
     CONTACTGEGEVEN              : CONTACTGEGEVENS(1) opposite of EMAILADRESSEN
 
 CONTACTPERSONEN
-description 'Concept Contactpersonen uit ZIBS.'
+description 'Concept Contactpersonen uit ZIBS; wordt gebruikt om m.n. ouders te modelleren.'
 =
     NAAMGEGEVENS                : NAAMGEGEVENS(1) required
     ADRESGEGEVENS               : ADRESGEGEVENS(*) //optional
@@ -79,11 +80,48 @@ description 'Concept Contactpersonen uit ZIBS.'
     PATIENT                     : PATIENTEN(1) required opposite of OUDERS_VERZORGERS
     rol                         : text(2) // 1 = 1e contactpersoon, 2 = 2e contactpersoon, 11 = voogd; etc.
     relatie                     : text(10) // FTH = father, MTH = mother
+    GEBRUIKER                   : USERS(1) //optional
 
-// BEHANDELINGEN
-// description 'Verzamelconcept van alle behandelstappen van een patient.'
-// =
-    
+BEHANDELTRAJECTEN
+description 'Verzamelconcept van alle behandelstappen van een patient in de context van één bepaald traject.'
+=
+    PATIENT                     : PATIENTEN(1) required opposite of BEHANDELTRAJECT
+    STAPPEN                     : BEHANDELSTAPPEN(*) /* optional */ opposite of BEHANDELTRAJECT
+    THERAPIE                    : THERAPIEEN(1) /* optional */
+    startdatum                  : date required
 
+BEHANDELSTAPPEN
+description 'Komt overeen met een enkel contactmoment; vallen onder een BEHANDELING; hier worden alleen opgenomen de stappen die al zijn uitgevoerd, of zijn ingepland/voorgesorteerd.'
+=
+    verrichting                 : text required
+    volgnummer                  : integer required
+    status                      : text
+    VORIGE                      : BEHANDELSTAPPEN(1) opposite of VOLGENDE
+    VOLGENDE                    : BEHANDELSTAPPEN(1) opposite of VORIGE
+    BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) required opposite of STAPPEN
+    THERAPIESTAP                : THERAPIESTAPPEN(1)
+    AFSPRAKEN                   : AFSPRAKEN(*) /* optional */ opposite of BEHANDELSTAP
 
+THERAPIEEN
+description 'Definitie van een kuur, bijv. een bepaalde soort chemotherapie. Feitelijk een tijdelijke vervanging van PRACTOCOL oid.'
+=
+    soort                       : text
+    STAPPEN                     : THERAPIESTAPPEN(*) /* optional */ opposite of THERAPIE
+
+THERAPIESTAPPEN
+description 'Stappen die onderdeel uitmaken van een kuur.'
+=
+    verrichting                 : text required
+    volgnummer                  : integer required
+    interval                    : text required // bijv. '3 weeks'
+    THERAPIE                    : THERAPIEEN(1) opposite of STAPPEN
+
+AFSPRAKEN
+description 'Afspraak voor behandelstap'
+=
+    datum                       : date
+    tijd                        : timestamp
+    locatie                     : text
+    status                      : text
+    BEHANDELSTAP                : BEHANDELSTAPPEN(1) required opposite of AFSPRAKEN
 
