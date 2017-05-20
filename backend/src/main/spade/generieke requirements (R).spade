@@ -103,4 +103,4 @@ description 'Standaarddefinitie, controleert of een waarde tussen een onder- en 
     else 'Oh, I checked and you do not have a next appointment.'
 
 "eerstvolgende afspraken in {DIT_TRAJECT}" =
-    DIT_TRAJECT.STAPPEN.AFSPRAKEN[tijdstip > currentTimestamp()]
+    DIT_TRAJECT.STAPPEN.AFSPRAAK[tijdstip > currentTimestamp()]

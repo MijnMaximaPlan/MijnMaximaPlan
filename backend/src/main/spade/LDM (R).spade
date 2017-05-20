@@ -128,7 +128,7 @@ description 'Stappen die onderdeel uitmaken van een kuur.'
     volgnummer                  : integer required
     interval                    : text required // bijv. '3 weeks'
     THERAPIE                    : THERAPIEEN(1) opposite of STAPPEN
-    samenvatting                : text displayed = '{volgnummer} - {verrichting} ({interval})'
+    samenvatting                : text displayed = '{volgnummer} - {VERRICHTING.naam} ({interval})'
     VERRICHTING                 : VERRICHTINGEN(1) required
 
 VERRICHTINGEN
