@@ -1,3 +1,0 @@
-WERKNEMERS = FINALIZED:bool; DBID:num;BSNNR:num;GEBOORTEDATUM:date;GESLACHT:str;VOORNAAM:str;TUSSENVOEGSEL:str;ACHTERNAAM:str;POSTCODEENSTAD:str;STRAATENHUISNR:str;EMAIL:str;DEELNAME_ID:num;OVEREENKOMENDEGEBRUIKER_ID:str
-TRUE                     ;1;121212121;'1972-11-17';'vrouw';'Esther';'van der';'Meulen';'1234 AB Anderloo';'Hengelooselaan 12a';'de.esther@zomaar.com';1;'deelnemer_user'
-TRUE                     ;2;181818181;'1988-01-01';'man';'Bertus';NULL;'Branischopper';'1818 BC Barendam';'Barenlaan 23b';'bertusb@banalana.nl';2;'deelnemer_user2'

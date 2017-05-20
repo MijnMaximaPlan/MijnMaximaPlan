@@ -12,10 +12,10 @@ description 'Concept Patient uit ZIBS.'
     overlijdens_indicator       : boolean //optional
     datum_overlijden            : timestamp //optional
     NAAMGEGEVENS                : NAAMGEGEVENS(1) required
-    ADRESGEGEVENS               : ADRESGEGEVENS(*) //optional
-    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) //optional
+    ADRESGEGEVENS               : ADRESGEGEVENS(*) /* optional */ opposite of PATIENT
+    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) /* optional */ opposite of PATIENT
 /* Toevoegen: ouders/verzorgers; contactvoorkeuren */
-    OUDERS_VERZORGERS           : 
+    // OUDERS_VERZORGERS           : 
 
 NAAMGEGEVENS
 description 'Concept Naamgegevens uit ZIBS.'
@@ -47,28 +47,25 @@ description 'Concept Adresgegevens uit ZIBS.'
     land                        : text //optional // Land GBA of ISO codelijst
     additionele_informatie      : text //optional
     adres_soort                 : ['PST', 'HP', 'PHYS', 'TMP', 'WP', 'HV'] //optional // bijv. PST postal address, HP primary home, etc.
+    PATIENT                     : PATIENTEN opposite of ADRESGEGEVENS
 
 CONTACTGEGEVENS
 description 'Concept Contactgegevens uit ZIBS.'
 =
-    TELEFOONNUMMERS             : TELEFOONNUMMERS(*) //optional
-    EMAILADRESSEN               : EMAILADRESSEN(*) //optional
+    TELEFOONNUMMERS             : TELEFOONNUMMERS(*) /* optional */ opposite of CONTACTGEGEVEN
+    EMAILADRESSEN               : EMAILADRESSEN(*) /* optional */ opposite of CONTACTGEGEVEN
+    PATIENT                     : PATIENTEN(1) opposite of CONTACTGEGEVENS
 
 TELEFOONNUMMERS
 description 'Concept Telefoonnummers uit ZIBS.'
 =
     telefoonnummer              : text required
     nummer_soort                : ['HP', 'TMP', 'WP', 'MC', 'PG'] required // bijv. HP primary home, WP Work Place, MC mobile contact, etc.
+    CONTACTGEGEVEN              : CONTACTGEGEVENS(1) opposite of TELEFOONNUMMERS
 
 EMAILADRESSEN
 description 'Concept Emailadressen uit ZIBS.'
 =
     emailadres                  : text required
     emailsoort                  : ['HP', 'WP'] required
-
-
-
-
-
-
-
+    CONTACTGEGEVEN              : CONTACTGEGEVENS(1) opposite of EMAILADRESSEN
