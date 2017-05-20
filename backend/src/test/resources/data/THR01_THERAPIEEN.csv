@@ -1,0 +1,2 @@
+THERAPIEEN = FINALIZED:bool; DBID:num; SOORT:str;
+TRUE; 1; 'Chemo Stage II High Risk, Post-operative';

@@ -41,6 +41,9 @@ description 'De datum van de eerste dag van het jaar van de opgegeven datum of t
 "{d_ts} als wwww mm dddd jjjj UU:mm" description 'dus bijv. als Vrijdag 25 maart 2016' =
     format(d_ts, 'EEEE dd MMMM YYYY HH:mm', 'nl')
 
+"{d_ts} as week month day year UU:mm" description 'so for instance Friday March 25 2016' =
+    format(d_ts, 'EEEE MMMM dd YYYY HH:mm')
+
 "{n} als geldbedrag" =
     format(n, '###,###,##0.00', 'nl')
 
@@ -89,19 +92,15 @@ description 'Standaarddefinitie, controleert of een waarde tussen een onder- en 
 
 /* =========== OMTRENT mijnmaximaplan ENTITEITEN ============ */ 
 
+"volgende afspraak in {DIT_TRAJECT} tekstueel" =
+    if  "eerstvolgende afspraken in {DIT_TRAJECT}" exists
+    then "{first(sorted("eerstvolgende afspraken in {DIT_TRAJECT}", 'tijdstip descending'), '').tijdstip} als wwww mm dddd jjjj UU:mm"
+    else 'Ik heb geen eerst volgende afspraak gevonden'
 
-"product van {WERKGEVER}"
-description 'deze requirement bepaalt het enige product van een werkgever (of een foutmelding).' =
-    one(PRODUCTEN[WERKGEVER in KLANTEN], "foutmelding 2")
+"next appointment {DIT_TRAJECT} textually" =
+    if  "eerstvolgende afspraken in {DIT_TRAJECT}" exists
+    then "{first(sorted("eerstvolgende afspraken in {DIT_TRAJECT}", 'tijdstip descending'), '').tijdstip} as week month day year UU:mm"
+    else 'Oh, I checked and you do not have a next appointment.'
 
-"de enige arbeidsovereenkomst van deze {DEELNAME} op {peildatum}" = 
-    one(DEELNAME.DEELNEMER.ARBEIDSOVEREENKOMSTEN[geldig_van <= peildatum and geldig_tot > peildatum], "foutmelding 4")
-
-"vorige verwerkingen van hetzelfde soort" =
-    old ( VERWERKINGEN[ "hetzelfde verwerkingssoort" and "vorige verwerking" ] )
-
-"hetzelfde verwerkingssoort" =
-    soort == DEZE_VERWERKING.soort
-
-"vorige verwerking" =
-    tijdstip < DEZE_VERWERKING.tijdstip
+"eerstvolgende afspraken in {DIT_TRAJECT}" =
+    DIT_TRAJECT.STAPPEN.AFSPRAKEN[tijdstip > currentTimestamp()]
