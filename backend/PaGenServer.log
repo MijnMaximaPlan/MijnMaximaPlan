@@ -1182,3 +1182,71 @@ org.antlr.runtime.MissingTokenException: null
     ]
   )
 ]
+2017-05-20 16:05:34,496 [ERROR] com.logica.pagen.parser.DefaultErrorHandler - [ 1] PARSER: null line 19:0 - Unexpected '<' (of type LT): expecting EOF
+
+org.antlr.runtime.MissingTokenException: null
+	at org.antlr.runtime.BaseRecognizer.recoverFromMismatchedToken(BaseRecognizer.java:612) [PaGenServer.jar:4.4-SNAPSHOT]
+	at org.antlr.runtime.BaseRecognizer.match(BaseRecognizer.java:115) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaAntlrParser.start(PaAntlrParser.java:295) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.parser.PaParser.parseSpec(PaParser.java:55) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:92) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.index.SymbolIndex.refreshActiveInfo(SymbolIndex.java:87) [PaGenServer.jar:4.4-SNAPSHOT]
+	at com.logica.pagen.server.util.Debouncer$DebounceTask.run(Debouncer.java:67) ~[PaGenServer.jar:4.4-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_121]
+2017-05-20 16:05:34,623 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 16:05:49,251 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.LOCAL.spade"
+      type = Created
+    ],
+    FileEventImpl [
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.REMOTE.spade"
+      type = Created
+    ],
+    FileEventImpl [
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.BASE.spade"
+      type = Created
+    ]
+  )
+]
+2017-05-20 16:05:49,251 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.LOCAL.spade, spec=PaSpec[Reusable definitions]
+2017-05-20 16:05:49,267 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.REMOTE.spade, spec=PaSpec[Reusable definitions]
+2017-05-20 16:05:49,267 [INFO] com.logica.pagen.server.index.SymbolIndex - refreshSpec: uri=file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.BASE.spade, spec=PaSpec[Reusable definitions]
+2017-05-20 16:07:17,781 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade"
+      type = Changed
+    ]
+  )
+]
+2017-05-20 16:07:26,428 [INFO] com.logica.pagen.server.SpadeWorkspaceService - didChangeWatchedFiles: DidChangeWatchedFilesParamsImpl [
+  changes = ArrayList (
+    FileEventImpl [
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.BASE.spade"
+      type = Deleted
+    ],
+    FileEventImpl [
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.LOCAL.spade"
+      type = Deleted
+    ],
+    FileEventImpl [
+      uri = "file:///c%3A/CGI/gitrepos/MijnMaximaPlan/backend/src/main/spade/LDM%20%28R%29.spade.REMOTE.spade"
+      type = Deleted
+    ]
+  )
+]

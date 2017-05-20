@@ -1,0 +1,389 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SPADE_rest",
+		"_postman_id": "d3dfca66-c6a7-bdd9-9cef-e66897b6b36f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "token (login marcusk)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var response = JSON.parse(responseBody);",
+							"",
+							"postman.setEnvironmentVariable('token', response.access_token);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://{{host}}/rest/token",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "userName",
+							"value": "marcusk",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "marcusk",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "457c43a1-da78-4512-974e-4a2f9d160c66",
+					"name": "token",
+					"originalRequest": {
+						"url": "http://localhost:8080/rest/token",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cache-Control",
+								"value": "no-cache",
+								"description": ""
+							},
+							{
+								"key": "Postman-Token",
+								"value": "d58c4145-2466-99c9-1461-71fd2e512c2a",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userName",
+									"value": "edwinh"
+								},
+								{
+									"key": "password",
+									"value": "edwinh"
+								}
+							]
+						},
+						"description": ""
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "javascript",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Accept-Ranges",
+							"key": "Accept-Ranges",
+							"value": "bytes",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Wed, 17 Feb 2016 16:10:54 GMT",
+							"description": ""
+						},
+						{
+							"name": "Expires",
+							"key": "Expires",
+							"value": "Wed, 17 Feb 2016 17:10:54 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Restlet-Framework/2.3.5",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Charset, Accept-Encoding, Accept-Language, Accept",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "55",
+					"body": "{\r\n  \"access_token\" : \"o6HSpi_P1Nb8cQtzDcFF9g\",\r\n  \"expires_in\" : 3600,\r\n  \"token_type\" : \"Bearer\"\r\n}"
+				}
+			]
+		},
+		{
+			"name": "tasks",
+			"request": {
+				"url": "http://{{host}}/rest/tasks",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"url": "http://{{host}}/rest/users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER mTYeGxBzHHyveNCuIBFNfA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "processDefinitions (list of startable processes)",
+			"request": {
+				"url": "http://{{host}}/rest/processDefinitions",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "processDefinitions (start process)",
+			"request": {
+				"url": "http://{{host}}/rest/processDefinitions/Order_products:1:d0788314-395d-11e7-ad5e-ecf4bb583324/instances",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetTasksForProcessInstance",
+			"request": {
+				"url": "http://{{host}}/rest/processInstances/cd736c9c-2c0d-11e7-9127-ecf4bb583324/tasks",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetTask",
+			"request": {
+				"url": "http://{{host}}/rest/tasks/8551dcea-399e-11e7-8971-ecf4bb583324",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetProcessInstances",
+			"request": {
+				"url": "http://{{host}}/rest/processDefinitions",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER l3zR1i8qSRjbaPj8gu5OxA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "claim Task",
+			"request": {
+				"url": "http://{{host}}/rest/tasks/8551dcea-399e-11e7-8971-ecf4bb583324",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"assignee\": { \"userName\": \"marcusk\" } }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "SubmitTask",
+			"request": {
+				"url": "http://{{host}}/rest/tasks/af3dd6f6-39a2-11e7-8971-ecf4bb583324",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"completed\": true,\n  \"formValues\": {\n  \t\"root-title\": \"Test of hij het echt doet\"\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "SubmitTask (several)",
+			"request": {
+				"url": "http://{{host}}/rest/tasks/8551dcea-399e-11e7-8971-ecf4bb583324",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"completed\": true,\n  \"formValues\": {\n  \t\"root-LINEs\": 3,\n\t\"root-LINEs[0]-c-product\": 1,\n\t\"root-LINEs[0]-c-number\": 3,\n\t\"root-LINEs[1]-c-product\": 2,\n\t\"root-LINEs[1]-c-number\": 4,\n\t\"root-LINEs[2]-c-product\": 10,\n\t\"root-LINEs[2]-c-number\": 1\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "entities",
+			"request": {
+				"url": "http://{{host}}/rest/entities",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "entity",
+			"request": {
+				"url": "http://{{host}}/rest/entities/PRODUCTS",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "entity_instances",
+			"request": {
+				"url": "http://{{host}}/rest/entities/PRODUCTS/instances?$type=range&$member=price&$valueFrom=0&$valueTo=0.6",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER {{token}}",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -16,6 +16,7 @@ description 'Concept Patient uit ZIBS.'
     CONTACTGEGEVENS             : CONTACTGEGEVENS(*) /* optional */ opposite of PATIENT
 /* Toevoegen: ouders/verzorgers; contactvoorkeuren */
     OUDERS_VERZORGERS           : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT
+    GEBRUIKER                   : USERS(1)
     BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
 
 NAAMGEGEVENS
@@ -49,6 +50,7 @@ description 'Concept Adresgegevens uit ZIBS.'
     additionele_informatie      : text //optional
     adres_soort                 : ['PST', 'HP', 'PHYS', 'TMP', 'WP', 'HV'] //optional // bijv. PST postal address, HP primary home, etc.
     PATIENT                     : PATIENTEN opposite of ADRESGEGEVENS
+    CONTACTPERSOON              : CONTACTPERSONEN(1) opposite of ADRESGEGEVENS
 
 CONTACTGEGEVENS
 description 'Concept Contactgegevens uit ZIBS.'
@@ -56,6 +58,7 @@ description 'Concept Contactgegevens uit ZIBS.'
     TELEFOONNUMMERS             : TELEFOONNUMMERS(*) /* optional */ opposite of CONTACTGEGEVEN
     EMAILADRESSEN               : EMAILADRESSEN(*) /* optional */ opposite of CONTACTGEGEVEN
     PATIENT                     : PATIENTEN(1) opposite of CONTACTGEGEVENS
+    CONTACTPERSOON              : CONTACTPERSONEN(1) opposite of CONTACTGEGEVENS
 
 TELEFOONNUMMERS
 description 'Concept Telefoonnummers uit ZIBS.'
@@ -75,8 +78,8 @@ CONTACTPERSONEN
 description 'Concept Contactpersonen uit ZIBS; wordt gebruikt om m.n. ouders te modelleren.'
 =
     NAAMGEGEVENS                : NAAMGEGEVENS(1) required
-    ADRESGEGEVENS               : ADRESGEGEVENS(*) //optional
-    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) //optional
+    ADRESGEGEVENS               : ADRESGEGEVENS(*) /* optional */ opposite of CONTACTPERSOON
+    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) /* optional */ opposite of CONTACTPERSOON
     PATIENT                     : PATIENTEN(1) required opposite of OUDERS_VERZORGERS
     rol                         : text(2) // 1 = 1e contactpersoon, 2 = 2e contactpersoon, 11 = voogd; etc.
     relatie                     : text(10) // FTH = father, MTH = mother

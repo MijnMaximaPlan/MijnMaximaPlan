@@ -1,0 +1,2 @@
+NAAMGEGEVENS = FINALIZED:bool; DBID:num;voornamen:str;initialen:str;roepnaam:str;naamgebruik:str;GESLACHTSNAAM_ID:num
+TRUE;1;'Ilja';'I';'Ilja';'NL1';1
