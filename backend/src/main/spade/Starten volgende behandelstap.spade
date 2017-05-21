@@ -63,7 +63,7 @@ The following applies:
 "een notificatie voor de geplande afspraak is aangemaakt voor de patient" =
     One NOTIFICATIE_AFSPRAAK_GEPLAND exists in MESSAGES with:
         title       = 'Uw afspraak is ingepland'
-        body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
+        body        = NIEUWE_AFSPRAAK.notificatietekst
         user        = GEKOZEN_PATIENT.GEBRUIKER
     // and
     // if "er is een SMS-nummer bekend voor patient {GEKOZEN_PATIENT}"
