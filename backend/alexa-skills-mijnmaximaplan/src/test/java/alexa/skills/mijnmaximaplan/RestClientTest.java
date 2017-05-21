@@ -16,7 +16,14 @@ public class RestClientTest {
     public void getUser() throws Exception {
         givenAccessToken();
         whenRequestUser();
-        thenUserIs("Marcus");
+        thenUserIs("Jannie");
+    }
+
+    //@Test
+    public void getNextAppointment() throws Exception {
+        givenAccessToken();
+        whenRequestNextAppointment();
+        thenAppointmentMessageIs("You have no upcoming visit scheduled for Ilja");
     }
 
     private void givenAccessToken() {
@@ -31,6 +38,10 @@ public class RestClientTest {
         userName = restClient.getUserName(token);
     }
 
+    private void whenRequestNextAppointment() {
+        message = restClient.getNextAppointment(token);
+    }
+
     private void thenTokenIsReturned() {
         assertNotNull(token);
     }
@@ -39,7 +50,13 @@ public class RestClientTest {
         assertEquals(name, userName);
     }
 
+    private void thenAppointmentMessageIs(String expectedMessage) {
+        assertNotNull(message);
+        assertEquals(expectedMessage, message);
+    }
+
     private RestClient restClient = new RestClient();
     private String token;
     private String userName;
+    private String message;
 }
