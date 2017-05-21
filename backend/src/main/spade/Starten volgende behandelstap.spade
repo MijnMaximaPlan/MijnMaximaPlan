@@ -7,14 +7,14 @@ The following applies:
             "de oncoloog heeft de volgende behandelstap aangemaakt"
             and
             "een notificatie voor de nieuwe behandelstap is aangemaakt voor de patient"
-            and
-            "het planbureau heeft de afspraak ingepland"
-            and
-            "een notificatie voor de geplande afspraak is aangemaakt voor de patient"
-            and
-            "de oncoloog heeft de afspraak definitief gemaakt"
-            and
-            "een notificatie voor de definitieve afspraak is aangemaakt voor de patient"
+            // and
+            // "het planbureau heeft de afspraak ingepland"
+            // and
+            // "een notificatie voor de geplande afspraak is aangemaakt voor de patient"
+            // and
+            // "de oncoloog heeft de afspraak definitief gemaakt"
+            // and
+            // "een notificatie voor de definitieve afspraak is aangemaakt voor de patient"
 
 "de therapie van de patient is nog niet voltooid" =
     max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) < max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.THERAPIE.STAPPEN.volgnummer)
@@ -30,7 +30,7 @@ The following applies:
 
 "nieuwe afspraak voor volgende behandelstap" =
     One NIEUWE_AFSPRAAK exists in AFSPRAKEN with:
-        status          = 'Aangevraagd'
+        status          = 'aangevraagd'
         vroegste_datum  = input from ARTS
         laatste_datum   = input from ARTS
         locatie         = input from ARTS chosen from ['Prinses Maxima Centrum', 'Wilhelmina Kinderziekenhuis']
