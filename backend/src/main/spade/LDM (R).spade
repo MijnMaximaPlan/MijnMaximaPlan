@@ -5,22 +5,23 @@ description 'Domeinmodel voor Project Roadmap Prinses Maxima Centrum.'
 PATIENTEN
 description 'Concept Patient uit ZIBS.'
 =
-    patientidentificatienummer  : text //optional
-    geboortedatum               : timestamp required
-    geslacht                    : ['UN', 'M', 'F', 'UNK'] required
-    meerling_indicator          : boolean //optional
-    overlijdens_indicator       : boolean //optional
-    datum_overlijden            : timestamp //optional
-    NAAMGEGEVENS                : NAAMGEGEVENS(1) required
-    ADRESGEGEVENS               : ADRESGEGEVENS(*) /* optional */ opposite of PATIENT
-    CONTACTGEGEVENS             : CONTACTGEGEVENS(*) /* optional */ opposite of PATIENT
-/* Toevoegen: ouders/verzorgers; contactvoorkeuren */
-    OUDERS_VERZORGERS           : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT
-    GEBRUIKER                   : USERS(1)
-    BEHANDELTRAJECT             : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
-    eerstvolgende_afspraak      : text = "volgende afspraak in {BEHANDELTRAJECT} tekstueel"
-    next_appointment            : text = "next appointment {BEHANDELTRAJECT} textually"
-    samenvatting                : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam} ({patientidentificatienummer})'
+    patientidentificatienummer      : text //optional
+    geboortedatum                   : timestamp required
+    geslacht                        : ['UN', 'M', 'F', 'UNK'] required
+    meerling_indicator              : boolean //optional
+    overlijdens_indicator           : boolean //optional
+    datum_overlijden                : timestamp //optional
+    NAAMGEGEVENS                    : NAAMGEGEVENS(1) required
+    ADRESGEGEVENS                   : ADRESGEGEVENS(*) /* optional */ opposite of PATIENT
+    CONTACTGEGEVENS                 : CONTACTGEGEVENS(*) /* optional */ opposite of PATIENT
+/* Toevoegen: ouders/verzorgers;contactvoorkeuren */
+    OUDERS_VERZORGERS               : CONTACTPERSONEN(*) /* optional */ opposite of PATIENT
+    GEBRUIKER                       : USERS(1)
+    BEHANDELTRAJECT                 : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
+    VOLGENDE_AFSPRAAK               : AFSPRAKEN(1) = "eerstvolgende afspraak in {BEHANDELTRAJECT} of leeg"
+    volgende_afspraak_samenvatting  : text = VOLGENDE_AFSPRAAK.uitgebreide_samenvatting
+    next_appointment                : text = "next appointment {BEHANDELTRAJECT} textually"
+    samenvatting                    : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam} ({patientidentificatienummer})'
 
 NAAMGEGEVENS
 description 'Concept Naamgegevens uit ZIBS.'
@@ -147,16 +148,16 @@ description 'Afspraak voor behandelstap.'
     tijdstip                    : timestamp
     locatie                     : text
     status                      : ['verwacht', 'aangevraagd', 'ingepland', 'goedgekeurd', 'geweest']
+    opmerkingen                 : text(1000) multiline
 //    MET_BEHANDELSTAPPEN         : BEHANDELSTAPPEN_IN_AFSPRAKEN(*) required opposite of AFSPRAAK
 //    MET_VERRICHTINGEN           : 
     BEHANDELSTAPPEN             : BEHANDELSTAPPEN(*) required opposite of AFSPRAAK
     PROTOCOLSTAP                : BEHANDELSTAPPEN(1) = if BEHANDELSTAPPEN exists then one(BEHANDELSTAPPEN[VERRICHTING == empty])
-    uitgebreide_samenvatting    : text = if status == 'verwacht'    then 'Deze afspraak voor kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} moet nog aangevraagd en ingepland worden.' else
+    uitgebreide_samenvatting    : text = if status == 'verwacht'    then 'De afspraak voor kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} moet nog aangevraagd en ingepland worden.' else
                                          if status == 'aangevraagd' then 'Het planbureau heeft het verzoek gekregen om kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} in te plannen tussen {vroegste_datum} en {laatste_datum}. Deze kuur duurt {PROTOCOLSTAP.THERAPIESTAP.duur} en vindt plaats op {locatie}.' else 'Oeps, er is iets onverwacht gebeurd met deze afspraak. We gaan het zo snel mogelijk oplossen.'
 
 SMS_MESSAGES =
     from            : text
     to              : text
     body            : text
-    sendTimestamp   : timestamp // optional  
-    
+    sendTimestamp   : timestamp // optional
