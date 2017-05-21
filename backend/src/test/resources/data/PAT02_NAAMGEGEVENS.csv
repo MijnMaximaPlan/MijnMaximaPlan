@@ -1,3 +1,7 @@
 NAAMGEGEVENS = FINALIZED:bool; DBID:num;VOORNAMEN:str;INITIALEN:str;ROEPNAAM:str;NAAMGEBRUIK:str;GESLACHTSNAAM_ID:num
 TRUE;1;'Ilja';'I';'Ilja';'NL1';1
 TRUE;2;'Jannie';'J.E.';'Jannie';'NL1';2
+TRUE;3;'Emre';'E.';'Emre';'NL1';3
+TRUE;4;'Daisy';'D.';'Daisy';'NL1';4
+TRUE;5;'Danny';'D.';'Danny';'NL1';5
+TRUE;6;'Max';'M.';'Max';'NL1';6
