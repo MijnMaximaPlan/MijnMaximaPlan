@@ -166,8 +166,8 @@ description 'Afspraak voor behandelstap.'
                                                 then 'De volgende afspraak voor {PATIENT.NAAMGEGEVENS.roepnaam} staat ingepland op {datum} om {tijdstip}. Dit is kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer}, deze duurt {PROTOCOLSTAP.THERAPIESTAP.duur} en vindt plaats op {locatie}.'
                                                 else 'Oeps, er is iets onverwachts gebeurd met deze afspraak. We gaan het zo snel mogelijk oplossen.'
 
-SMS_MESSAGES =
-    from            : text
-    to              : text
-    body            : text
-    sendTimestamp   : timestamp // optional
+// SMS_MESSAGES =
+//     from            : text
+//     to              : text
+//     body            : text
+//     sendTimestamp   : timestamp // optional

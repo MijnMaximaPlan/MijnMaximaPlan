@@ -5,3 +5,4 @@ PA_SYS_USER = USER_NAME:str; FIRST_NAME:str; LAST_NAME:str; EMAIL:str; PASSWORD:
 'anton'; 'anton';'arts'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
 'lillian'; 'Lillian';'Laborantius'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
 'sigmund'; 'Sigmund';'Freud'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false
+'emre'; 'Emre';'Yilmaz'; 'marcusk@localhost'; 'QLB5+ASVuPbbg3RiaZ9C4tr/8F8sZ8KF'; false

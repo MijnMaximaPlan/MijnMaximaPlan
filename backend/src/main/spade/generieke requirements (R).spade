@@ -108,7 +108,9 @@ description 'Standaarddefinitie, controleert of een waarde tussen een onder- en 
 "eerstvolgende afspraak in {DIT_TRAJECT} of leeg" =
     if  "eerstvolgende afspraken in {DIT_TRAJECT}" exists
     then first(sorted("eerstvolgende afspraken in {DIT_TRAJECT}", 'tijdstip descending'), '')
-    
 
 "SMS-nummer voor patient {PATIENT}" =
     one(PATIENT.OUDERS_VERZORGERS[rol == '1'].CONTACTGEGEVENS.TELEFOONNUMMERS[nummer_soort == 'MC' exists].telefoonnummer)
+
+"er is een SMS-nummer bekend voor patient {PATIENT}" =
+    PATIENT.OUDERS_VERZORGERS[rol == '1'].CONTACTGEGEVENS.TELEFOONNUMMERS[nummer_soort == 'MC' exists] exists
