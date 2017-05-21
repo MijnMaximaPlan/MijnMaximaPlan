@@ -22,7 +22,8 @@ description 'Concept Patient uit ZIBS.'
     volgende_afspraak_samenvatting  : text = if     VOLGENDE_AFSPRAAK exists
                                              then   next_appointment_text
                                              else   'The next visit of {NAAMGEGEVENS.roepnaam} still needs to be scheduled.'
-    next_appointment_text           : text = "next appointment {BEHANDELTRAJECT} textually"
+    next_appointment_text           : text = if VOLGENDE_AFSPRAAK exists
+                                             then "alexas message about {VOLGENDE_AFSPRAAK}"
     samenvatting                    : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam} ({patientidentificatienummer})'
 
 NAAMGEGEVENS

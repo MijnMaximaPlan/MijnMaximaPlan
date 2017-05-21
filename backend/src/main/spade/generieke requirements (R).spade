@@ -102,6 +102,11 @@ description 'Standaarddefinitie, controleert of een waarde tussen een onder- en 
     then "{first(sorted("eerstvolgende afspraken in {DIT_TRAJECT}", 'tijdstip descending'), '').tijdstip} as week month day year UU:mm"
     else 'Oh, I checked and you do not have a next appointment.'
 
+"alexas message about {A}" =
+    if A.status == 'verwacht' then 'The doctor first needs to do something before this visit for kuur {A.PROTOCOLSTAP.THERAPIESTAP.volgnummer} can be scheduled.' else
+    if A.status == 'aangevraagd' then 'The planbureau wil now schedule the visit for kuur {A.PROTOCOLSTAP.THERAPIESTAP.volgnummer} between {A.vroegste_datum} and {A.laatste_datum}. The kuur will take {A.PROTOCOLSTAP.THERAPIESTAP.duur} and will take place at {A.locatie}.' else 'That is weird, the visit does not have any status.'
+
+
 "eerstvolgende afspraken in {DIT_TRAJECT}" =
     DIT_TRAJECT.STAPPEN.AFSPRAAK[tijdstip > currentTimestamp()]
 
