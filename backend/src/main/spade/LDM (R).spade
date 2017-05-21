@@ -20,7 +20,7 @@ description 'Concept Patient uit ZIBS.'
     BEHANDELTRAJECT                 : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
     VOLGENDE_AFSPRAAK               : AFSPRAKEN(1) = "eerstvolgende afspraak in {BEHANDELTRAJECT} of leeg"
     volgende_afspraak_samenvatting  : text = if     VOLGENDE_AFSPRAAK exists
-                                             then   VOLGENDE_AFSPRAAK.long_summary
+                                             then   next_appointment_text
                                              else   'The next visit of {NAAMGEGEVENS.roepnaam} still needs to be scheduled.'
     next_appointment_text           : text = "next appointment {BEHANDELTRAJECT} textually"
     samenvatting                    : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam} ({patientidentificatienummer})'
@@ -169,8 +169,9 @@ description 'Afspraak voor behandelstap.'
                                                 if status == 'ingepland'
                                                 then 'De volgende afspraak voor {PATIENT.NAAMGEGEVENS.roepnaam} staat ingepland op {datum} om {tijdstip}. Dit is kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer}, deze duurt {PROTOCOLSTAP.THERAPIESTAP.duur} en vindt plaats op {locatie}.'
                                                 else 'Oeps, er is iets onverwachts gebeurd met deze afspraak. We gaan het zo snel mogelijk oplossen.'
-    long_summary                : text = if status == 'verwacht'    then 'De afspraak voor kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} moet nog aangevraagd en ingepland worden.' else
-                                         if status == 'aangevraagd' then 'Het planbureau heeft het verzoek gekregen om kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} in te plannen tussen {vroegste_datum} en {laatste_datum}. Deze kuur duurt {PROTOCOLSTAP.THERAPIESTAP.duur} en vindt plaats op {locatie}.' else 'Oeps, er is iets onverwacht gebeurd met deze afspraak. We gaan het zo snel mogelijk oplossen.'
+    long_summary                : text = 'asdkjfh'
+    // long_summary                : text = if status == 'verwacht'    then 'De afspraak voor kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} moet nog aangevraagd en ingepland worden.' else
+    //                                      if status == 'aangevraagd' then 'Het planbureau heeft het verzoek gekregen om kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} in te plannen tussen {vroegste_datum} en {laatste_datum}. Deze kuur duurt {PROTOCOLSTAP.THERAPIESTAP.duur} en vindt plaats op {locatie}.' else 'Oeps, er is iets onverwacht gebeurd met deze afspraak. We gaan het zo snel mogelijk oplossen.'
 
 // SMS_MESSAGES =
 //     from            : text
