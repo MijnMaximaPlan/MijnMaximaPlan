@@ -19,7 +19,9 @@ description 'Concept Patient uit ZIBS.'
     GEBRUIKER                       : USERS(1)
     BEHANDELTRAJECT                 : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
     VOLGENDE_AFSPRAAK               : AFSPRAKEN(1) = "eerstvolgende afspraak in {BEHANDELTRAJECT} of leeg"
-    volgende_afspraak_samenvatting  : text = VOLGENDE_AFSPRAAK.uitgebreide_samenvatting
+    volgende_afspraak_samenvatting  : text = if VOLGENDE_AFSPRAAK exists
+                                             then VOLGENDE_AFSPRAAK.uitgebreide_samenvatting
+                                             else 'De volgende afspraak voor {NAAMGEGEVENS.roepnaam} moet nog aangevraagd en ingediend worden.'
     next_appointment                : text = "next appointment {BEHANDELTRAJECT} textually"
     samenvatting                    : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam} ({patientidentificatienummer})'
 
