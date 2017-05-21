@@ -1,0 +1,4 @@
+VERRICHTINGEN = FINALIZED:bool; DBID:num; NAAM:str
+TRUE; 1; 'Chemo Cyclo/Dox'
+TRUE; 2; 'Chemo VP16/Carbo'
+TRUE; 3; 'Thoraxfoto'

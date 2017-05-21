@@ -7,14 +7,14 @@ The following applies:
             "de oncoloog heeft de volgende behandelstap aangemaakt"
             and
             "een notificatie voor de nieuwe behandelstap is aangemaakt voor de patient"
-        and
-        "het planbureau heeft de afspraak ingepland"
-        and
-        "een notificatie voor de geplande afspraak is aangemaakt voor de patient"
-        and
-        "de oncoloog heeft de afspraak definitief gemaakt"
-        and
-        "een notificatie voor de definitieve afspraak is aangemaakt voor de patient"
+            and
+            "het planbureau heeft de afspraak ingepland"
+            and
+            "een notificatie voor de geplande afspraak is aangemaakt voor de patient"
+            and
+            "de oncoloog heeft de afspraak definitief gemaakt"
+            and
+            "een notificatie voor de definitieve afspraak is aangemaakt voor de patient"
 
 "de therapie van de patient is nog niet voltooid" =
     max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) < max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.THERAPIE.STAPPEN.volgnummer)
@@ -33,6 +33,8 @@ The following applies:
         status          = 'Aangevraagd'
         vroegste_datum  = input from ARTS
         laatste_datum   = input from ARTS
+        locatie         = input from ARTS chosen from ['Prinses Maxima Centrum', 'Wilhelmina Kinderziekenhuis']
+        // duur            = NIEUWE_BEHANDELSTAP.THERAPIESTAP.duur
 
 "een notificatie voor de nieuwe behandelstap is aangemaakt voor de patient" =
     One NOTIFICATIE_VOLG_BEHANDELSTAP exists in MESSAGES with:
@@ -54,7 +56,7 @@ The following applies:
     and
     NIEUWE_AFSPRAAK.tijdstip    = input from PLANNER based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.vroegste_datum} en {NIEUWE_AFSPRAAK.laatste_datum}.'
     and
-    NIEUWE_AFSPRAAK.locatie     = input from PLANNER based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.vroegste_datum} en {NIEUWE_AFSPRAAK.laatste_datum}.'
+    NIEUWE_AFSPRAAK.status      = input from PLANNER chosen from ['ingepland'] based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.vroegste_datum} en {NIEUWE_AFSPRAAK.laatste_datum}.' default 'ingepland'
 
 "een notificatie voor de geplande afspraak is aangemaakt voor de patient" =
     One NOTIFICATIE_AFSPRAAK_GEPLAND exists in MESSAGES with:
