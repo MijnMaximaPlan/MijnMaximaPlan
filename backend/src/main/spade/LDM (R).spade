@@ -19,10 +19,10 @@ description 'Concept Patient uit ZIBS.'
     GEBRUIKER                       : USERS(1)
     BEHANDELTRAJECT                 : BEHANDELTRAJECTEN(1) /* optional */ opposite of PATIENT
     VOLGENDE_AFSPRAAK               : AFSPRAKEN(1) = "eerstvolgende afspraak in {BEHANDELTRAJECT} of leeg"
-    volgende_afspraak_samenvatting  : text = if VOLGENDE_AFSPRAAK exists
-                                             then VOLGENDE_AFSPRAAK.uitgebreide_samenvatting
-                                             else 'De volgende afspraak voor {NAAMGEGEVENS.roepnaam} moet nog aangevraagd en ingediend worden.'
-    next_appointment                : text = "next appointment {BEHANDELTRAJECT} textually"
+    volgende_afspraak_samenvatting  : text = if     VOLGENDE_AFSPRAAK exists
+                                             then   next_appointment_text
+                                             else   'The next visit of {NAAMGEGEVENS.roepnaam} still needs to be scheduled.'
+    next_appointment_text           : text = "next appointment {BEHANDELTRAJECT} textually"
     samenvatting                    : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam} ({patientidentificatienummer})'
 
 NAAMGEGEVENS
@@ -90,6 +90,10 @@ description 'Concept Contactpersonen uit ZIBS; wordt gebruikt om m.n. ouders te 
     rol                         : text(2) // 1 = 1e contactpersoon, 2 = 2e contactpersoon, 11 = voogd; etc.
     relatie                     : ['FTH', 'MTH', 'Etc'] // FTH = father, MTH = mother
     GEBRUIKER                   : USERS(1) //optional
+    samenvatting                : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam}'
+    next_appointment_text       : text = if     PATIENT exists and PATIENT.BEHANDELTRAJECT exists 
+                                         then   PATIENT.volgende_afspraak_samenvatting
+                                         else   'You have no upcoming visit scheduled for {PATIENT.NAAMGEGEVENS.roepnaam}.'
 
 BEHANDELTRAJECTEN
 description 'Verzamelconcept van alle behandelstappen van een patient in de context van één bepaald traject.'
@@ -165,6 +169,9 @@ description 'Afspraak voor behandelstap.'
                                                 if status == 'ingepland'
                                                 then 'De volgende afspraak voor {PATIENT.NAAMGEGEVENS.roepnaam} staat ingepland op {datum} om {tijdstip}. Dit is kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer}, deze duurt {PROTOCOLSTAP.THERAPIESTAP.duur} en vindt plaats op {locatie}.'
                                                 else 'Oeps, er is iets onverwachts gebeurd met deze afspraak. We gaan het zo snel mogelijk oplossen.'
+    long_summary                : text = 'asdkjfh'
+    // long_summary                : text = if status == 'verwacht'    then 'De afspraak voor kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} moet nog aangevraagd en ingepland worden.' else
+    //                                      if status == 'aangevraagd' then 'Het planbureau heeft het verzoek gekregen om kuur {PROTOCOLSTAP.THERAPIESTAP.volgnummer} in te plannen tussen {vroegste_datum} en {laatste_datum}. Deze kuur duurt {PROTOCOLSTAP.THERAPIESTAP.duur} en vindt plaats op {locatie}.' else 'Oeps, er is iets onverwacht gebeurd met deze afspraak. We gaan het zo snel mogelijk oplossen.'
 
 // SMS_MESSAGES =
 //     from            : text
