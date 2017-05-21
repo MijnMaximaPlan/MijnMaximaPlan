@@ -39,11 +39,11 @@ The following applies:
         title       = 'Volgende afspraak is aangevraagd'
         body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
         user        = GEKOZEN_PATIENT.GEBRUIKER
-    and
-    One SMS_VOLG_BEHANDELSTAP exists in SMS_MESSAGES with:
-        from    = 'Prinses Maxima Centrum'
-        to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
-        body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
+    // and
+    // One SMS_VOLG_BEHANDELSTAP exists in SMS_MESSAGES with:
+    //     from    = 'Prinses Maxima Centrum'
+    //     to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
+    //     body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
 
 "patient waarvoor de volgende behandelstap moet starten" =
     input from ARTS chosen from PATIENTEN[old BEHANDELTRAJECT.status == 'loopt']
@@ -61,11 +61,11 @@ The following applies:
         title       = 'Uw afspraak is ingepland'
         body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
         user        = GEKOZEN_PATIENT.GEBRUIKER
-    and
-    One SMS_AFSPRAAK_GEPLAND exists in SMS_MESSAGES with:
-        from    = 'Prinses Maxima Centrum'
-        to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
-        body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
+    // and
+    // One SMS_AFSPRAAK_GEPLAND exists in SMS_MESSAGES with:
+    //     from    = 'Prinses Maxima Centrum'
+    //     to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
+    //     body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
 
 "de oncoloog heeft de afspraak definitief gemaakt" =
     NIEUWE_AFSPRAAK.status = input from ARTS chosen from ['goedgekeurd', 'verwacht'] based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.datum} en {NIEUWE_AFSPRAAK.tijdstip}.'
@@ -75,8 +75,8 @@ The following applies:
         title       = 'Uw afspraak is definitief'
         body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
         user        = GEKOZEN_PATIENT.GEBRUIKER
-    and
-    One SMS_AFSPRAAK_DEFINITIEF exists in SMS_MESSAGES with:
-        from    = 'Prinses Maxima Centrum'
-        to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
-        body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
+    // and
+    // One SMS_AFSPRAAK_DEFINITIEF exists in SMS_MESSAGES with:
+    //     from    = 'Prinses Maxima Centrum'
+    //     to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
+    //     body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
