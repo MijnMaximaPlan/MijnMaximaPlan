@@ -5,3 +5,4 @@ PA_SYS_MEMBERSHIP = USER_NAME:str; ROLE_NAME:str
 'anton';'arts'
 'lillian';'laborant'
 'sigmund';'psycholoog'
+'emre';'patient'

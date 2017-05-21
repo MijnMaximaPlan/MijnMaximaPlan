@@ -1,0 +1,3 @@
+BEHANDELTRAJECTEN = FINALIZED:bool; DBID:num; STARTDATUM:date; STATUS:str; THERAPIE_ID:num
+TRUE; 1; '2017-04-04'; 'loopt'; 1
+TRUE; 2; '2017-03-04'; 'loopt'; 1

@@ -1,7 +1,7 @@
 GESLACHTSNAMEN = FINALIZED:bool; DBID:num;VOORVOEGSELS:str;ACHTERNAAM:str
-TRUE;1;NULL;'Boersma'
-TRUE;2;NULL;'Dijkstra'
-TRUE;3;NULL;'Yilmaz'
-TRUE;4;NULL;'Visser'
-TRUE;5;NULL;'Doorzetter'
+TRUE;1;'';'Boersma'
+TRUE;2;'';'Dijkstra'
+TRUE;3;'';'Yilmaz'
+TRUE;4;'';'Visser'
+TRUE;5;'';'Doorzetter'
 TRUE;6;'van';'Bennekom'
