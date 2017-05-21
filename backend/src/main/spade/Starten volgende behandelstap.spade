@@ -23,7 +23,7 @@ The following applies:
     One NIEUWE_BEHANDELSTAP exists in BEHANDELSTAPPEN with:
         volgnummer          = max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) + 1
         status              = 'loopt'
-        VORIGE              = one(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN[volgnummer == max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer)])
+        // VORIGE              = one(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN[volgnummer == max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer)])
         BEHANDELTRAJECT     = old GEKOZEN_PATIENT.BEHANDELTRAJECT
         THERAPIESTAP        = one(GEKOZEN_PATIENT.BEHANDELTRAJECT.THERAPIE.STAPPEN[volgnummer == NIEUWE_BEHANDELSTAP.volgnummer])
         AFSPRAAK            = "nieuwe afspraak voor volgende behandelstap"
