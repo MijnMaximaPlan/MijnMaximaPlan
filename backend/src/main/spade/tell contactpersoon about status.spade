@@ -1,0 +1,4 @@
+Process 'tell contactpersoon about status'
+
+The following applies:
+    "tell jannie {input from ARTS of type text}" 

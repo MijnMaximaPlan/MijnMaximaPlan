@@ -92,9 +92,16 @@ description 'Concept Contactpersonen uit ZIBS; wordt gebruikt om m.n. ouders te 
     relatie                     : ['FTH', 'MTH', 'Etc'] // FTH = father, MTH = mother
     GEBRUIKER                   : USERS(1) //optional
     samenvatting                : text displayed = '{NAAMGEGEVENS.roepnaam} {NAAMGEGEVENS.GESLACHTSNAAM.voorvoegsels} {NAAMGEGEVENS.GESLACHTSNAAM.achternaam}'
-    next_appointment_text       : text = if     PATIENT exists and PATIENT.BEHANDELTRAJECT exists 
-                                         then   PATIENT.volgende_afspraak_samenvatting
-                                         else   'You have no upcoming visit scheduled for {PATIENT.NAAMGEGEVENS.roepnaam}.'
+    what_to_tell_jannie         : text(1000)
+    next_appointment_text       : text(1000) = if   what_to_tell_jannie exists
+                                               then what_to_tell_jannie
+                                               else   'You have no upcoming visit scheduled for {PATIENT.NAAMGEGEVENS.roepnaam}.'
+"jannie" =
+    one(CONTACTPERSONEN[GEBRUIKER.userName == 'jannie'])
+
+"tell jannie {new_message}" =
+    For the JANNIE in "jannie" applies:
+        JANNIE.what_to_tell_jannie = new_message
 
 BEHANDELTRAJECTEN
 description 'Verzamelconcept van alle behandelstappen van een patient in de context van één bepaald traject.'

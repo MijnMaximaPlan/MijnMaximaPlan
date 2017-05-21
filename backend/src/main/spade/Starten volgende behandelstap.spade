@@ -41,6 +41,8 @@ The following applies:
         title       = 'Volgende afspraak is aangevraagd'
         body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
         user        = GEKOZEN_PATIENT.GEBRUIKER
+    and
+    "tell jannie {'{ARTS.firstName} has requested the planning bureau to plan your next visit.'}"
     // and
     // // if "er is een SMS-nummer bekend voor patient {GEKOZEN_PATIENT}"
     // // then

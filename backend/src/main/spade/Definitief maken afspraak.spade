@@ -19,6 +19,9 @@ The following applies:
         title       = 'Uw afspraak is definitief'
         body        = NIEUWE_AFSPRAAK.notificatietekst
         user        = GEKOZEN_PATIENT.GEBRUIKER
+    and
+    "tell jannie {'{ARTS.firstName} has finalized Iljas next visit. It will happen without a doubt.'}"
+    
     // and
     // if "er is een SMS-nummer bekend voor patient {GEKOZEN_PATIENT}"
     // then
