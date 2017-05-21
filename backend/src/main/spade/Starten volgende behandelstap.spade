@@ -4,18 +4,22 @@ The following applies:
     For the GEKOZEN_PATIENT in "patient waarvoor de volgende behandelstap moet starten" applies:
         if "de therapie van de patient is nog niet voltooid"
         then
-            "de volgende behandelstap is aangemaakt"
+            "de oncoloog heeft de volgende behandelstap aangemaakt"
             and
             "een notificatie voor de nieuwe behandelstap is aangemaakt voor de patient"
-        // and
-        // "het planbureau heeft de afspraak ingepland"
-        // and
-        // "een notificatie voor de geplande afspraak is aangemaakt voor de patient"
+        and
+        "het planbureau heeft de afspraak ingepland"
+        and
+        "een notificatie voor de geplande afspraak is aangemaakt voor de patient"
+        and
+        "de oncoloog heeft de afspraak definitief gemaakt"
+        and
+        "een notificatie voor de definitieve afspraak is aangemaakt voor de patient"
 
 "de therapie van de patient is nog niet voltooid" =
     max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) < max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.THERAPIE.STAPPEN.volgnummer)
 
-"de volgende behandelstap is aangemaakt" =
+"de oncoloog heeft de volgende behandelstap aangemaakt" =
     One NIEUWE_BEHANDELSTAP exists in BEHANDELSTAPPEN with:
         volgnummer          = max(old GEKOZEN_PATIENT.BEHANDELTRAJECT.STAPPEN.volgnummer) + 1
         status              = 'loopt'
@@ -26,7 +30,9 @@ The following applies:
 
 "nieuwe afspraak voor volgende behandelstap" =
     One NIEUWE_AFSPRAAK exists in AFSPRAKEN with:
-        status      = 'In te plannen'
+        status          = 'Aangevraagd'
+        vroegste_datum  = input from ARTS
+        laatste_datum   = input from ARTS
 
 "een notificatie voor de nieuwe behandelstap is aangemaakt voor de patient" =
     One NOTIFICATIE_VOLG_BEHANDELSTAP exists in MESSAGES with:
@@ -43,3 +49,34 @@ The following applies:
     input from ARTS chosen from PATIENTEN[old BEHANDELTRAJECT.status == 'loopt']
     // one(PATIENTEN[patientidentificatienummer == input from ARTS based on PATIENTEN[old BEHANDELTRAJECT.status == 'loopt']])
 
+"het planbureau heeft de afspraak ingepland" =
+    NIEUWE_AFSPRAAK.datum       = input from PLANNER based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.vroegste_datum} en {NIEUWE_AFSPRAAK.laatste_datum}.'
+    and
+    NIEUWE_AFSPRAAK.tijdstip    = input from PLANNER based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.vroegste_datum} en {NIEUWE_AFSPRAAK.laatste_datum}.'
+    and
+    NIEUWE_AFSPRAAK.locatie     = input from PLANNER based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.vroegste_datum} en {NIEUWE_AFSPRAAK.laatste_datum}.'
+
+"een notificatie voor de geplande afspraak is aangemaakt voor de patient" =
+    One NOTIFICATIE_AFSPRAAK_GEPLAND exists in MESSAGES with:
+        title       = 'Uw afspraak is ingepland'
+        body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
+        user        = GEKOZEN_PATIENT.GEBRUIKER
+    and
+    One SMS_AFSPRAAK_GEPLAND exists in SMS_MESSAGES with:
+        from    = 'Prinses Maxima Centrum'
+        to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
+        body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
+
+"de oncoloog heeft de afspraak definitief gemaakt" =
+    NIEUWE_AFSPRAAK.status = input from ARTS chosen from ['goedgekeurd', 'verwacht'] based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.datum} en {NIEUWE_AFSPRAAK.tijdstip}.'
+
+"een notificatie voor de definitieve afspraak is aangemaakt voor de patient" =
+    One NOTIFICATIE_AFSPRAAK_DEFINITIEF exists in MESSAGES with:
+        title       = 'Uw afspraak is definitief'
+        body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
+        user        = GEKOZEN_PATIENT.GEBRUIKER
+    and
+    One SMS_AFSPRAAK_DEFINITIEF exists in SMS_MESSAGES with:
+        from    = 'Prinses Maxima Centrum'
+        to      = "SMS-nummer voor patient {GEKOZEN_PATIENT}"
+        body    = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
