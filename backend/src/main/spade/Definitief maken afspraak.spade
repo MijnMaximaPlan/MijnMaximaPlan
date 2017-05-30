@@ -18,7 +18,7 @@ The following applies:
     One NOTIFICATIE_AFSPRAAK_DEFINITIEF exists in MESSAGES with:
         title       = 'Uw afspraak is definitief'
         body        = NIEUWE_AFSPRAAK.notificatietekst
-        user        = GEKOZEN_PATIENT.GEBRUIKER
+        user        = one(GEKOZEN_PATIENT.OUDERS_VERZORGERS[rol == '1']).GEBRUIKER
     and
     "tell jannie {'{ARTS.firstName} has finalized Iljas next visit. It will happen without a doubt.'}"
     

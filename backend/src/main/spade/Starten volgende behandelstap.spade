@@ -40,7 +40,7 @@ The following applies:
     One NOTIFICATIE_VOLG_BEHANDELSTAP exists in MESSAGES with:
         title       = 'Volgende afspraak is aangevraagd'
         body        = NIEUWE_AFSPRAAK.uitgebreide_samenvatting
-        user        = GEKOZEN_PATIENT.GEBRUIKER
+        user        = one(GEKOZEN_PATIENT.OUDERS_VERZORGERS[rol == '1']).GEBRUIKER
     and
     "tell jannie {'{ARTS.firstName} has requested the planning bureau to plan your next visit.'}"
     // and

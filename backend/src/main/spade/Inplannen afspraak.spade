@@ -52,12 +52,14 @@ The following applies:
         NIEUWE_AFSPRAAK.tijdstip    = input from PLANNER based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen {NIEUWE_AFSPRAAK.vroegste_datum} en   {NIEUWE_AFSPRAAK.laatste_datum}.'
         and
         NIEUWE_AFSPRAAK.status      = input from PLANNER chosen from ['ingepland'] based on 'Patient {GEKOZEN_PATIENT.samenvatting}, tussen     {NIEUWE_AFSPRAAK.vroegste_datum} en {NIEUWE_AFSPRAAK.laatste_datum}.' default 'ingepland'
+        and
+        "tell jannie {'The planning bureau has planned your next visit for Ilja on {"{NIEUWE_AFSPRAAK.tijdstip} as week month day year UU:mm"}. The docter still needs to make it final.'}"
 
 "een notificatie voor de geplande afspraak is aangemaakt voor de patient" =
     One NOTIFICATIE_AFSPRAAK_GEPLAND exists in MESSAGES with:
         title       = 'Uw afspraak is ingepland'
         body        = NIEUWE_AFSPRAAK.notificatietekst
-        user        = GEKOZEN_PATIENT.GEBRUIKER
+        user        = one(GEKOZEN_PATIENT.OUDERS_VERZORGERS[rol == '1']).GEBRUIKER
     // and
     // if "er is een SMS-nummer bekend voor patient {GEKOZEN_PATIENT}"
     // then
